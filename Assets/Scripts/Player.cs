@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         baseCollider = GetComponent<BoxCollider2D>();
     }
-    void Update()
+    void FixedUpdate()
     {
         if (!animator.GetBool("isHurt"))
         {
