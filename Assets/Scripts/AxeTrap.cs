@@ -5,7 +5,7 @@ using UnityEngine;
 public class AxeTrap : MonoBehaviour
 {
     private Rigidbody2D rbody2d;
-    public float speed = 20f;
+    public float speed = 80f;
     public float maxLeft = -0.55f;
     public float maxRight = 0.55f;
     private bool clockwise = false;
@@ -17,6 +17,7 @@ public class AxeTrap : MonoBehaviour
 
     void FixedUpdate()
     {
+        print(rbody2d.angularVelocity + " : " + transform.rotation.z);
         moveAxe();
         checkAndToggleDirection();
     }
@@ -28,7 +29,7 @@ public class AxeTrap : MonoBehaviour
         {
             rbody2d.angularVelocity = speed;
         }
-        else if (transform.rotation.z < maxLeft && clockwise)
+        else if (transform.rotation.z > maxLeft && clockwise)
         {
             rbody2d.angularVelocity = -speed;
         }

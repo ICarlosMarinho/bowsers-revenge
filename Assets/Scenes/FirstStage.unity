@@ -14794,12 +14794,12 @@ PrefabInstance:
     - target: {fileID: 1193007285341554390, guid: c3b623215400a6a48b8e716b73b4234c,
         type: 3}
       propertyPath: m_AngleLimits.m_UpperAngle
-      value: 60
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 1193007285341554390, guid: c3b623215400a6a48b8e716b73b4234c,
         type: 3}
       propertyPath: m_AngleLimits.m_LowerAngle
-      value: -60
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1193007285341554390, guid: c3b623215400a6a48b8e716b73b4234c,
         type: 3}
@@ -14810,6 +14810,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseMotor
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193007285341554390, guid: c3b623215400a6a48b8e716b73b4234c,
+        type: 3}
+      propertyPath: m_Anchor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193007285341554390, guid: c3b623215400a6a48b8e716b73b4234c,
+        type: 3}
+      propertyPath: m_AutoConfigureConnectedAnchor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1193007285793498584, guid: c3b623215400a6a48b8e716b73b4234c,
         type: 3}
