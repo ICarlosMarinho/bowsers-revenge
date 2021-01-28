@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 467d85737fdb3b846bce1ea07f88f2b9
+guid: 830d85d099d169544b9670543754759e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4925674528816365551
-    second: bowser_spiting_0
+      213: 4693684853584912142
+    second: bowser_crouch_0
   - first:
-      213: -2661707027106471572
-    second: bowser_spiting_1
+      213: 7356058636956158940
+    second: bowser_crouch_1
   - first:
-      213: -4085573178420235057
-    second: bowser_spiting_2
+      213: -2790753813906946410
+    second: bowser_crouch_2
   - first:
-      213: 1083743276455642034
-    second: bowser_spiting_3
+      213: 3638252513416832216
+    second: bowser_crouch_3
+  - first:
+      213: -2635761828131516652
+    second: bowser_crouch_4
+  - first:
+      213: -8728301513982943456
+    second: bowser_crouch_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,85 +117,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bowser_spiting_0
+      name: bowser_crouch_4
       rect:
         serializedVersion: 2
-        x: 58
-        y: 10
-        width: 80
+        x: 614
+        y: 8
+        width: 89
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11006b60d1d74abb0800000000000000
-      internalID: -4925674528816365551
+      spriteID: 41fcfa90594eb6bd0800000000000000
+      internalID: -2635761828131516652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowser_spiting_1
+      name: bowser_crouch_5
       rect:
         serializedVersion: 2
-        x: 169
-        y: 10
-        width: 80
+        x: 726
+        y: 8
+        width: 89
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c616829af87bf0bd0800000000000000
-      internalID: -2661707027106471572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bowser_spiting_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 10
-        width: 80
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc4f56c27d02d47c0800000000000000
-      internalID: -4085573178420235057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bowser_spiting_3
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 10
-        width: 80
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b34bdc94ca3a0f00800000000000000
-      internalID: 1083743276455642034
+      spriteID: 02fda8e7408ded680800000000000000
+      internalID: -8728301513982943456
       vertices: []
       indices: 
       edges: []

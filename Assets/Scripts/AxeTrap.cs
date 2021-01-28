@@ -17,7 +17,6 @@ public class AxeTrap : MonoBehaviour
 
     void FixedUpdate()
     {
-        print(rbody2d.angularVelocity + " : " + transform.rotation.z);
         moveAxe();
         checkAndToggleDirection();
     }

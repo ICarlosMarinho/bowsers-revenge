@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 3661587757621796470}
   - component: {fileID: 3661587757621796471}
   - component: {fileID: 3661587757621796458}
+  - component: {fileID: 700676017131561225}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -132,7 +133,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1.2
   m_LinearDrag: 0
-  m_AngularDrag: 0.3
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -152,7 +153,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.014229059, y: -1.0690544}
+  m_Offset: {x: 0.2426939, y: -1.0690544}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -163,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4158263, y: 0.20253485}
+  m_Size: {x: 0.9986286, y: 0.20253491}
   m_EdgeRadius: 0
 --- !u!95 &3661587757621796470
 Animator:
@@ -196,6 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba32d9017498e88468ae284de83c47b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTime: 3
   speed: 3
   jumpForce: 7
   firePoint: {fileID: 6124973680769641123}
@@ -226,12 +228,55 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.71404356, y: -1.0916053}
-      - {x: -0.703876, y: -1.0929079}
-      - {x: -0.7083972, y: -0.9579375}
-      - {x: 0.73235846, y: -0.9487258}
-      - {x: 0.7290247, y: -1.093147}
-      - {x: 0.7430322, y: -1.0909482}
-      - {x: 0.76965505, y: 0.47557345}
-      - {x: -0.33930513, y: 1.1019326}
-      - {x: -0.90613735, y: 0.45314983}
+    - - {x: -0.484375, y: -1.078125}
+      - {x: 0.109375, y: -1.078125}
+      - {x: 0.171875, y: -0.765625}
+      - {x: 0.890625, y: -1.078125}
+      - {x: 0.921875, y: 0.703125}
+      - {x: 0.328125, y: 0.640625}
+      - {x: -0.078125, y: 1.046875}
+      - {x: -0.484375, y: 0.828125}
+      - {x: -0.734375, y: -0.484375}
+      - {x: -0.453125, y: -1.015625}
+    - - {x: 0.171875, y: 0.890625}
+      - {x: -0.265625, y: 0.984375}
+      - {x: -0.703125, y: 0.328125}
+      - {x: -0.484375, y: -1.078125}
+      - {x: 1.046875, y: -0.796875}
+      - {x: 0.921875, y: 0.703125}
+      - {x: 0.296875, y: 0.765625}
+--- !u!114 &700676017131561225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661587757621796457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaTolerance: 28
+  DistanceThreshold: 8
+  Scale: 1
+  Decompose: 0
+  RunInPlayMode: 1
+  UseCache: 0
+  lastAlphaTolerance: 28
+  lastScale: 1
+  lastDistanceThreshold: 8
+  lastDecompose: 0
+  lastSprite: {fileID: -8533794165736206665, guid: f45eb4802da715c4da3dc1ab4563e401,
+    type: 3}
+  lastRect:
+    serializedVersion: 2
+    x: 66
+    y: 13
+    width: 74
+    height: 70
+  lastOffset: {x: 37, y: 35}
+  lastPixelsPerUnit: 32
+  lastFlipX: 0
+  lastFlipY: 0
+  editorCache: []

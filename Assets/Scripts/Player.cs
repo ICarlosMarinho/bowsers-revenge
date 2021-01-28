@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         baseCollider = GetComponent<BoxCollider2D>();
     }
+
     void FixedUpdate()
     {
         if (!animator.GetBool("isHurt"))
@@ -40,14 +41,17 @@ public class Player : MonoBehaviour
                 if (facingLeft && Input.GetAxisRaw("Horizontal") > 0) Flip();
                 else if (!facingLeft && Input.GetAxisRaw("Horizontal") < 0) Flip();
 
-                Run();
+                if (!animator.GetBool("isCrouching")) Run();
             }
             else
             {
                 animator.SetBool("isRunning", false);
             }
 
-            if (Input.GetButtonDown("Jump") && baseCollider.IsTouchingLayers()) Jump();
+            if (Input.GetButtonDown("Jump") && baseCollider.IsTouchingLayers() && !animator.GetBool("isCrouching")) Jump();
+
+            if (Input.GetAxisRaw("Vertical") < 0 && baseCollider.IsTouchingLayers()) animator.SetBool("isCrouching", true);
+            else animator.SetBool("isCrouching", false);
 
         }
     }
