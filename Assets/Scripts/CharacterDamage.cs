@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDamage : MonoBehaviour
+public class CharacterDamage : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -20,9 +20,9 @@ public class PlayerDamage : MonoBehaviour
 
         if (target)
         {
-            if (gameObject.CompareTag("Arrow") && !target.CompareTag("Fireball")) Destroy(gameObject);
+            if (gameObject.CompareTag("Arrow") || gameObject.CompareTag("Fireball") && !target.CompareTag("Fireball")) Destroy(gameObject);
 
-            if (target.CompareTag("Player")) Destroy(target, 2f);
+            if (target.CompareTag("Player") || target.CompareTag("Enemy")) Destroy(target, 2f);
 
         }
     }

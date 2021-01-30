@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 1837243345134350986}
   - component: {fileID: 6812601335686548800}
   - component: {fileID: 1258113892989550061}
-  - component: {fileID: 8749033205645280760}
+  - component: {fileID: 1149952494374115506}
   - component: {fileID: 2478021233847025114}
   - component: {fileID: 8281197393062676679}
   - component: {fileID: 8256849282200024612}
+  - component: {fileID: 395927196306081150}
   m_Layer: 0
   m_Name: Toad
   m_TagString: Enemy
@@ -99,7 +100,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -108,8 +109,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &8749033205645280760
-BoxCollider2D:
+--- !u!60 &1149952494374115506
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04420263, y: 0.008791208}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -131,9 +132,20 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1396521, y: 0.2348681}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.29812497, y: -0.86125}
+      - {x: 0.43062496, y: -0.86125}
+      - {x: 0.36437497, y: 0.06625}
+      - {x: 0.56312495, y: 0.59625}
+      - {x: 0.29812497, y: 0.86125}
+      - {x: -0.165625, y: 0.86125}
+      - {x: -0.56312495, y: 0.53}
+      - {x: 0.56312495, y: 0.46374997}
+      - {x: -0.56312495, y: 0.39749998}
+      - {x: -0.49687496, y: 0}
+      - {x: -0.23187499, y: -0.1325}
+      - {x: -0.29812497, y: -0.66249996}
 --- !u!95 &2478021233847025114
 Animator:
   serializedVersion: 3
@@ -179,3 +191,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49583bb24e25f514e9282eb66099f140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &395927196306081150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7400569725711907064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaTolerance: 2
+  DistanceThreshold: 2
+  Scale: 1.06
+  Decompose: 0
+  RunInPlayMode: 1
+  UseCache: 0
+  lastAlphaTolerance: 2
+  lastScale: 1.06
+  lastDistanceThreshold: 2
+  lastDecompose: 0
+  lastSprite: {fileID: -8702087391129950295, guid: 157727ed4795bab4fab7e71d4d25a2f3,
+    type: 3}
+  lastRect:
+    serializedVersion: 2
+    x: 9
+    y: 427
+    width: 18
+    height: 27
+  lastOffset: {x: 9, y: 13.5}
+  lastPixelsPerUnit: 16
+  lastFlipX: 0
+  lastFlipY: 0
+  editorCache: []

@@ -100,7 +100,7 @@ public class Player : MonoBehaviour
         {
 
             animator.SetBool("isHurt", true);
-            rbody.AddForce(new Vector2((Random.Range(-1f, 1f) + 2f), 3), ForceMode2D.Impulse);
+            rbody.AddForce(new Vector2((Random.Range(-1f, 1f) * 2f), 2f), ForceMode2D.Impulse);
         }
     }
 

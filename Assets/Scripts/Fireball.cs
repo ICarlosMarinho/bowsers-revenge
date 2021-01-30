@@ -17,16 +17,4 @@ public class Fireball : MonoBehaviour
         else rbody.velocity = Vector2.right * speed;
     }
 
-    // Update is called once per frame
-    void OnTriggerEnter2D(Collider2D colliderInfo)
-    {
-
-        GameObject target = colliderInfo.transform.gameObject;
-
-        if (target && target.CompareTag("Enemy")) Destroy(target);
-
-        Destroy(gameObject);
-    }
-
-
 }

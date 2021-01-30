@@ -9,9 +9,10 @@ public class Toad : MonoBehaviour
     private Vector2 initialPosition;
     private Vector2 currentPosition;
     private Vector2 playerPosition;
+    private Animator playerAnimator;
+    private bool facingLeft = false;
     public float speed = 2f;
     public float maxDistance = 5f;
-    private bool runningToLeft = false;
 
     void Start()
     {
@@ -25,11 +26,13 @@ public class Toad : MonoBehaviour
     {
         currentPosition = transform.position;
 
-        if (GameObject.FindGameObjectWithTag("Player"))
+        if (GameObject.FindGameObjectWithTag("Player") && !objAnimator.GetBool("isHurt"))
         {
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
 
-            if (rbody.velocity.magnitude != 0)
+            if (playerAnimator == null) playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+
+            if (rbody.velocity.x != 0)
             {
                 if (!objAnimator.GetBool("isRunning")) objAnimator.SetBool("isRunning", true);
             }
@@ -37,6 +40,9 @@ public class Toad : MonoBehaviour
             {
                 if (objAnimator.GetBool("isRunning")) objAnimator.SetBool("isRunning", false);
             }
+
+            if (!facingLeft && playerInLeftSide()) Flip();
+            else if (facingLeft && !playerInLeftSide()) Flip();
 
             run();
         }
@@ -57,6 +63,33 @@ public class Toad : MonoBehaviour
             rbody.velocity = new Vector2(0, 0);
         }
     }
+    void CheckDamage(GameObject target)
+    {
+        if (target.CompareTag("Arrow") || target.CompareTag("Trap") || target.CompareTag("Fireball"))
+        {
+            rbody.velocity = new Vector2(0, 0);
+            objAnimator.SetBool("isHurt", true);
+            rbody.AddForce(new Vector2((Random.Range(-1f, 1f) * 2f), 2f), ForceMode2D.Impulse);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collisionInfo)
+    {
+        CheckDamage(collisionInfo.transform.gameObject);
+    }
+
+    void OnCollisionEnter2D(Collision2D collisionInfo)
+    {
+
+        CheckDamage(collisionInfo.transform.gameObject);
+    }
+
+    void Flip()
+    {
+        facingLeft = !facingLeft;
+
+        transform.Rotate(0f, 180f, 0f);
+    }
 
     float distanceFromInitialPosition()
     {
@@ -64,7 +97,7 @@ public class Toad : MonoBehaviour
     }
     bool playerInRange()
     {
-        return Mathf.Abs((currentPosition.x - playerPosition.x)) <= maxDistance;
+        return Mathf.Abs((currentPosition.x - playerPosition.x)) <= maxDistance && !playerAnimator.GetBool("isHurt");
     }
 
     bool playerInLeftSide()
