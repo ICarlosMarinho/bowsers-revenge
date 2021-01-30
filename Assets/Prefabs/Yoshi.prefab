@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 8904921380595603252}
   m_Layer: 11
   m_Name: Yoshi
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,8 +59,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8904921380595603253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.74, y: -3.44, z: 0}
-  m_LocalScale: {x: 3.0315628, y: 3.0315628, z: 0}
+  m_LocalPosition: {x: 14.773, y: -5.002, z: 0}
+  m_LocalScale: {x: 0.8606935, y: 1.0327355, z: 0}
   m_Children:
   - {fileID: 8904921381253410410}
   - {fileID: 8904921379610016565}
@@ -103,8 +103,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1598506123
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -7924214139512419657, guid: ed2bbf2a96811254a90d61bc34db72ba,
     type: 3}
@@ -156,7 +156,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.29, y: 0.25}
+    oldSize: {x: 1.8125, y: 1.5625}
     newSize: {x: 0.29, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

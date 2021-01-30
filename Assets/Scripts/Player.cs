@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 
             if (baseCollider.IsTouchingLayers() && Input.GetButton("Horizontal")) animator.SetBool("isRunning", true);
 
-            if (Input.GetButtonDown("Fire1") && !fireballCooldown) SpitFire();
+            if (Input.GetButtonDown("Fire1") && !fireballCooldown && !animator.GetBool("isCrouching")) SpitFire();
 
             if (Input.GetButton("Horizontal"))
             {
