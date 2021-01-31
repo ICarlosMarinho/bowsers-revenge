@@ -20,7 +20,7 @@ public class CharacterDamage : MonoBehaviour
 
         if (target)
         {
-            if (gameObject.CompareTag("Arrow") || gameObject.CompareTag("Fireball") && !target.CompareTag("Fireball")) Destroy(gameObject);
+            if (gameObject.CompareTag("Projectile") && !target.CompareTag("Projectile")) Destroy(gameObject);
 
             if (target.CompareTag("Player") || target.CompareTag("Enemy")) Destroy(target, 2f);
 

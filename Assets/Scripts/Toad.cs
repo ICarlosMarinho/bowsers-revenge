@@ -10,7 +10,6 @@ public class Toad : MonoBehaviour
     private Vector2 currentPosition;
     private Vector2 playerPosition;
     private Animator playerAnimator;
-    private bool facingLeft = false;
     public float speed = 2f;
     public float maxDistance = 5f;
 
@@ -41,9 +40,6 @@ public class Toad : MonoBehaviour
                 if (objAnimator.GetBool("isRunning")) objAnimator.SetBool("isRunning", false);
             }
 
-            if (!facingLeft && playerInLeftSide()) Flip();
-            else if (facingLeft && !playerInLeftSide()) Flip();
-
             run();
         }
     }
@@ -65,7 +61,7 @@ public class Toad : MonoBehaviour
     }
     void CheckDamage(GameObject target)
     {
-        if (target.CompareTag("Arrow") || target.CompareTag("Trap") || target.CompareTag("Fireball"))
+        if (target.CompareTag("Projectile") || target.CompareTag("Trap"))
         {
             rbody.velocity = new Vector2(0, 0);
             objAnimator.SetBool("isHurt", true);
@@ -82,13 +78,6 @@ public class Toad : MonoBehaviour
     {
 
         CheckDamage(collisionInfo.transform.gameObject);
-    }
-
-    void Flip()
-    {
-        facingLeft = !facingLeft;
-
-        transform.Rotate(0f, 180f, 0f);
     }
 
     float distanceFromInitialPosition()
