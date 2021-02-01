@@ -6,16 +6,20 @@ public class Yoshi : MonoBehaviour
 {
     private ShootLogic shootLogic;
     private FlipCharacter flipCharacter;
-    // Start is called before the first frame update
+    private Enemy enemy;
     void Start()
     {
         shootLogic = GetComponent<ShootLogic>();
+        enemy = GetComponent<Enemy>();
         flipCharacter = GetComponent<FlipCharacter>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!shootLogic.shootCooldown) shootLogic.shoot(flipCharacter.facingLeft);
+        if (enemy.playerInRange() && !shootLogic.shootCooldown)
+        {
+            shootLogic.shoot(flipCharacter.facingLeft);
+        }
     }
 }

@@ -24,11 +24,11 @@ public class ShootLogic : MonoBehaviour
         if (facingLeft) objInstance.GetComponent<Rigidbody2D>().velocity = Vector2.left * projectileSpeed;
         else objInstance.GetComponent<Rigidbody2D>().velocity = Vector2.right * projectileSpeed;
 
-        StartCoroutine(CancelSpitingAnimation());
-        StartCoroutine(SetFireballCoolDown());
+        StartCoroutine(CancelShootingAnimation());
+        StartCoroutine(SetShootllCoolDown());
     }
 
-    IEnumerator SetFireballCoolDown()
+    IEnumerator SetShootllCoolDown()
     {
         shootCooldown = true;
 
@@ -37,7 +37,7 @@ public class ShootLogic : MonoBehaviour
         shootCooldown = false;
     }
 
-    IEnumerator CancelSpitingAnimation()
+    IEnumerator CancelShootingAnimation()
     {
         yield return new WaitForSeconds(0.2f);
 

@@ -25,8 +25,8 @@ public class Player : MonoBehaviour
     {
         if (!animator.GetBool("isHurt"))
         {
-            if (!baseCollider.IsTouchingLayers()) animator.SetBool("isJumping", true);
-            else animator.SetBool("isJumping", false);
+            if (rbody.velocity.y > 0 && !baseCollider.IsTouchingLayers()) animator.SetBool("isJumping", true);
+            else if (baseCollider.IsTouchingLayers()) animator.SetBool("isJumping", false);
 
             if (baseCollider.IsTouchingLayers() && Input.GetButton("Horizontal")) animator.SetBool("isRunning", true);
 

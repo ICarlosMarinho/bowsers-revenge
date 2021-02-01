@@ -43,10 +43,11 @@ GameObject:
   - component: {fileID: 5243744215641734017}
   - component: {fileID: 5243744215641734018}
   - component: {fileID: 5243744215641734019}
-  - component: {fileID: 5243744215641734020}
+  - component: {fileID: 2410886186128975198}
   - component: {fileID: 5243744215641734016}
   - component: {fileID: 5243744215641734030}
   - component: {fileID: 5243744215641734031}
+  - component: {fileID: 5243744215641734020}
   m_Layer: 0
   m_Name: Yoshi
   m_TagString: Enemy
@@ -213,7 +214,7 @@ PolygonCollider2D:
       - {x: -0.84, y: -0.455}
       - {x: -0.7, y: -0.665}
       - {x: -0.77, y: -0.875}
---- !u!114 &5243744215641734020
+--- !u!114 &2410886186128975198
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,32 +223,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5243744215641734023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Script: {fileID: 11500000, guid: d901dfbf9a5446b4aac2fa6ba2be4bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AlphaTolerance: 20
-  DistanceThreshold: 1
-  Scale: 1.12
-  Decompose: 0
-  RunInPlayMode: 0
-  UseCache: 0
-  lastAlphaTolerance: 20
-  lastScale: 1.12
-  lastDistanceThreshold: 1
-  lastDecompose: 0
-  lastSprite: {fileID: 6910661364944560616, guid: ed2bbf2a96811254a90d61bc34db72ba,
-    type: 3}
-  lastRect:
-    serializedVersion: 2
-    x: 175
-    y: 243
-    width: 25
-    height: 30
-  lastOffset: {x: 12.5, y: 15}
-  lastPixelsPerUnit: 16
-  lastFlipX: 0
-  lastFlipY: 0
-  editorCache: []
+  maxDistance: 5
+  speed: 2
 --- !u!114 &5243744215641734016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,3 +269,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac231bf4019bae2408bd35f2bf8ce505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxDistance: 10
+--- !u!114 &5243744215641734020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243744215641734023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaTolerance: 20
+  DistanceThreshold: 1
+  Scale: 1.12
+  Decompose: 0
+  RunInPlayMode: 0
+  UseCache: 0
+  lastAlphaTolerance: 20
+  lastScale: 1.12
+  lastDistanceThreshold: 1
+  lastDecompose: 0
+  lastSprite: {fileID: 6910661364944560616, guid: ed2bbf2a96811254a90d61bc34db72ba,
+    type: 3}
+  lastRect:
+    serializedVersion: 2
+    x: 175
+    y: 243
+    width: 25
+    height: 30
+  lastOffset: {x: 12.5, y: 15}
+  lastPixelsPerUnit: 16
+  lastFlipX: 0
+  lastFlipY: 0
+  editorCache: []
