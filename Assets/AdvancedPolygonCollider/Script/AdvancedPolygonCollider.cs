@@ -494,7 +494,7 @@ namespace DigitalRuby.AdvancedPolygonCollider
 
 #endif
 
-                Debug.Log("Updated polygon.");
+                // Debug.Log("Updated polygon.");
             }
             catch (Exception ex)
             {
@@ -508,10 +508,10 @@ namespace DigitalRuby.AdvancedPolygonCollider
             float flipXMultiplier = (spriteRenderer.flipX ? -1.0f : 1.0f);
             float flipYMultiplier = (spriteRenderer.flipY ? -1.0f : 1.0f);
 
-			if (p.DistanceThreshold > 1)
-			{
-				v = SimplifyTools.DouglasPeuckerSimplify (v, p.DistanceThreshold);
-			}
+            if (p.DistanceThreshold > 1)
+            {
+                v = SimplifyTools.DouglasPeuckerSimplify(v, p.DistanceThreshold);
+            }
 
             if (p.Decompose)
             {
@@ -521,8 +521,8 @@ namespace DigitalRuby.AdvancedPolygonCollider
                     List<Vector2> v2 = points[j];
                     for (int i = 0; i < v2.Count; i++)
                     {
-						float xValue = (2.0f * (((v2[i].x - offset.x) + 0.5f) / p.Rect.width));
-						float yValue = (2.0f * (((v2[i].y - offset.y) + 0.5f) / p.Rect.height));
+                        float xValue = (2.0f * (((v2[i].x - offset.x) + 0.5f) / p.Rect.width));
+                        float yValue = (2.0f * (((v2[i].y - offset.y) + 0.5f) / p.Rect.height));
                         v2[i] = new Vector2(xValue * p.XMultiplier * Scale * flipXMultiplier, yValue * p.YMultiplier * Scale * flipYMultiplier);
                     }
                     Vector2[] arr = v2.ToArray();
@@ -536,8 +536,8 @@ namespace DigitalRuby.AdvancedPolygonCollider
                 collider.pathCount = pathIndex + 1;
                 for (int i = 0; i < v.Count; i++)
                 {
-					float xValue = (2.0f * (((v[i].x - offset.x) + 0.5f) / p.Rect.width));
-					float yValue = (2.0f * (((v[i].y - offset.y) + 0.5f) / p.Rect.height));
+                    float xValue = (2.0f * (((v[i].x - offset.x) + 0.5f) / p.Rect.width));
+                    float yValue = (2.0f * (((v[i].y - offset.y) + 0.5f) / p.Rect.height));
                     v[i] = new Vector2(xValue * p.XMultiplier * Scale * flipXMultiplier, yValue * p.YMultiplier * Scale * flipYMultiplier);
                 }
                 Vector2[] arr = v.ToArray();

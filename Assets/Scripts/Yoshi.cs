@@ -17,7 +17,7 @@ public class Yoshi : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (enemy.playerInRange() && !shootLogic.shootCooldown)
+        if (enemy.playerInRange() && !shootLogic.shootCooldown && !enemy.enemyAnimator.GetBool("isHurt"))
         {
             shootLogic.shoot(flipCharacter.facingLeft);
         }

@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public static int playerScore;
+    public static int lifeCount = 3;
     public float speed = 1f;
     public float jumpForce = 5f;
     private Animator animator;
@@ -14,11 +17,15 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        if (!PlayerPrefs.HasKey("lifeCount")) PlayerPrefs.SetInt("lifeCount", lifeCount);
+        else lifeCount = PlayerPrefs.GetInt("lifeCount");
+
         rbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         baseCollider = GetComponent<BoxCollider2D>();
         shootLogic = GetComponent<ShootLogic>();
         flipCharacter = GetComponent<FlipCharacter>();
+        playerScore = 0;
     }
 
     void FixedUpdate()
@@ -44,7 +51,6 @@ public class Player : MonoBehaviour
 
             if (Input.GetAxisRaw("Vertical") < 0 && baseCollider.IsTouchingLayers()) animator.SetBool("isCrouching", true);
             else animator.SetBool("isCrouching", false);
-
         }
     }
 
@@ -71,12 +77,29 @@ public class Player : MonoBehaviour
 
     void CheckDamage(GameObject target)
     {
-        if (target.CompareTag("Projectile") || target.CompareTag("Trap") || target.CompareTag("Enemy"))
+        if (target.CompareTag("Projectile") || target.CompareTag("Trap") || target.CompareTag("Enemy") && !animator.GetBool("isHurt"))
         {
 
             animator.SetBool("isHurt", true);
             rbody.AddForce(new Vector2((Random.Range(-1f, 1f) * 2f), 2f), ForceMode2D.Impulse);
+
+            if (lifeCount > 0 && PlayerPrefs.GetInt("lifeCount") > 0)
+            {
+                lifeCount--;
+                PlayerPrefs.SetInt("lifeCount", lifeCount);
+            }
+
+            StartCoroutine(ReloadStage());
         }
     }
+    IEnumerator ReloadStage()
+    {
+        yield return new WaitForSeconds(2);
+
+        string currScene = SceneManager.GetActiveScene().name;
+
+        SceneManager.LoadScene(currScene);
+    }
+
 }
 

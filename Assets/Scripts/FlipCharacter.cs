@@ -25,7 +25,7 @@ public class FlipCharacter : MonoBehaviour
             if (facingLeft && Input.GetAxisRaw("Horizontal") > 0) Flip();
             else if (!facingLeft && Input.GetAxisRaw("Horizontal") < 0) Flip();
         }
-        else if (CompareTag("Enemy"))
+        else if (CompareTag("Enemy") && !enemy.enemyAnimator.GetBool("isHurt"))
         {
             if (facingLeft)
             {

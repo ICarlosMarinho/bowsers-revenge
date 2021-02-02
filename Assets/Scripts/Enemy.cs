@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float maxDistance = 5f;
     public float speed = 2f;
+    public int scoreValue = 100;
     public Rigidbody2D rbody { get; set; }
     public Vector2 initialPosition { get; set; }
     public Vector2 currentPosition { get; set; }
@@ -18,18 +19,16 @@ public class Enemy : MonoBehaviour
         rbody = GetComponent<Rigidbody2D>();
         enemyAnimator = GetComponent<Animator>();
         initialPosition = transform.position;
+        currentPosition = transform.position;
+        playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
         currentPosition = transform.position;
-
-        if (GameObject.FindGameObjectWithTag("Player") && !enemyAnimator.GetBool("isHurt"))
-        {
-            playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
-            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
-        }
+        playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
 
         checkAndToggleAnimationState();
     }
@@ -88,6 +87,8 @@ public class Enemy : MonoBehaviour
             rbody.velocity = new Vector2(0, 0);
             enemyAnimator.SetBool("isHurt", true);
             rbody.AddForce(new Vector2((Random.Range(-1f, 1f) * 2f), 2f), ForceMode2D.Impulse);
+
+            Player.playerScore += scoreValue;
         }
     }
 

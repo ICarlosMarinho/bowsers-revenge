@@ -14,7 +14,7 @@ public class Toad : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (GameObject.FindGameObjectWithTag("Player") != null) enemy.followPlayer();
+        if (GameObject.FindGameObjectWithTag("Player") != null && !enemy.enemyAnimator.GetBool("isHurt")) enemy.followPlayer();
     }
 }
 
