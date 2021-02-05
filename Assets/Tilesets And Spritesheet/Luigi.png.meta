@@ -1,0 +1,3704 @@
+fileFormatVersion: 2
+guid: 7f7b22aae1d1d0b4e86630588eaa4142
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1483334368700086374
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_0
+  - first:
+      213: -6675140904935579419
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_1
+  - first:
+      213: 5204795431842844687
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_2
+  - first:
+      213: -5527494767425742235
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_3
+  - first:
+      213: 8666187763377441866
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_4
+  - first:
+      213: 8933835540152864932
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_5
+  - first:
+      213: 2114058158171132948
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_6
+  - first:
+      213: 2376220105795918716
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_7
+  - first:
+      213: 3450106481907947800
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_8
+  - first:
+      213: -8488062224916177589
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_9
+  - first:
+      213: 8031228347501823503
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_10
+  - first:
+      213: -4005723003458856284
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_11
+  - first:
+      213: -2195460786328441399
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_12
+  - first:
+      213: 2533110592526856180
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_13
+  - first:
+      213: 3561737824920432512
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_14
+  - first:
+      213: -5462032572362869885
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_15
+  - first:
+      213: -9214531878282332973
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_16
+  - first:
+      213: 7539876848978414151
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_17
+  - first:
+      213: -4260250487482020905
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_18
+  - first:
+      213: -2937244516549915940
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_19
+  - first:
+      213: -6168999160555216182
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_20
+  - first:
+      213: 2562968922755040080
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_21
+  - first:
+      213: 1627741666561659209
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_22
+  - first:
+      213: 2071171466114733523
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_23
+  - first:
+      213: -2300015393626066634
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_24
+  - first:
+      213: -8485585200630168649
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_25
+  - first:
+      213: 7566835495424980930
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_26
+  - first:
+      213: 2796511449932352347
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_27
+  - first:
+      213: 553335663708774776
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_28
+  - first:
+      213: 8586223002620014168
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_29
+  - first:
+      213: 4021374478989347443
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_30
+  - first:
+      213: 5444612215630507808
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_31
+  - first:
+      213: -8979288631351781900
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_32
+  - first:
+      213: -3117365607732709367
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_33
+  - first:
+      213: 8764955089457804100
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_34
+  - first:
+      213: 5296284862560370000
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_35
+  - first:
+      213: -1213762435703479494
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_36
+  - first:
+      213: -3349100805707109089
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_37
+  - first:
+      213: -1674154276050279362
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_38
+  - first:
+      213: 3701673137565546187
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_39
+  - first:
+      213: -7461462572668857769
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_40
+  - first:
+      213: 7525327314105541014
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_41
+  - first:
+      213: -5558267188046222452
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_42
+  - first:
+      213: 3705490435863074966
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_43
+  - first:
+      213: 2406343558670249915
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_44
+  - first:
+      213: -6211226473104352538
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_45
+  - first:
+      213: 3275102428815580157
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_46
+  - first:
+      213: -3570229457552944995
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_47
+  - first:
+      213: -3096497160224413705
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_48
+  - first:
+      213: 4499795987809147603
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_49
+  - first:
+      213: -7942861661658046567
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_50
+  - first:
+      213: -1370986653332676956
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_51
+  - first:
+      213: -4469793372746439902
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_52
+  - first:
+      213: 8125138408135686643
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_53
+  - first:
+      213: -7871959589310855609
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_54
+  - first:
+      213: -4889429385761684763
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_55
+  - first:
+      213: -5401737996564384782
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_56
+  - first:
+      213: -6210500833452590967
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_57
+  - first:
+      213: -3063633328206536721
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_58
+  - first:
+      213: -5467412823078612460
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_59
+  - first:
+      213: -2785648178846507342
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_60
+  - first:
+      213: 5495134108121061951
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_61
+  - first:
+      213: 7687803134846234625
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_62
+  - first:
+      213: 4837202588412515560
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_63
+  - first:
+      213: -5259930817168836123
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_64
+  - first:
+      213: 4334860576255702768
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_65
+  - first:
+      213: -5875749085177543837
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_66
+  - first:
+      213: 8418601378878839491
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_67
+  - first:
+      213: 8806751316830452423
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_68
+  - first:
+      213: -1187413555611296990
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_69
+  - first:
+      213: 1621780885814722562
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_70
+  - first:
+      213: -137347887562758988
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_71
+  - first:
+      213: -3172154249254447978
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_72
+  - first:
+      213: 3827298344552116325
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_73
+  - first:
+      213: 3720678516062771453
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_74
+  - first:
+      213: -6440625001570519914
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_75
+  - first:
+      213: -1205275521320088911
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_76
+  - first:
+      213: -6745823443105315808
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_77
+  - first:
+      213: 5935211831272746014
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_78
+  - first:
+      213: 6622656510452495961
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_79
+  - first:
+      213: -868483521937941661
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_80
+  - first:
+      213: -4419052101025861493
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_81
+  - first:
+      213: 567807108832758951
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_82
+  - first:
+      213: 4323649367843371993
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_83
+  - first:
+      213: -8385340907401040279
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_84
+  - first:
+      213: -7403127682306908715
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_85
+  - first:
+      213: -6773487480170682580
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_86
+  - first:
+      213: -3740576955046550778
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_87
+  - first:
+      213: -6490889429067183385
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_88
+  - first:
+      213: -7511079124098696642
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_89
+  - first:
+      213: 1844908694944467130
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_90
+  - first:
+      213: -8981698865995146417
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_91
+  - first:
+      213: -6876073717593135986
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_92
+  - first:
+      213: -971826478808825629
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_93
+  - first:
+      213: 4842111313848382902
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_94
+  - first:
+      213: -6112087679383015623
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_95
+  - first:
+      213: -7146503961079787917
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_96
+  - first:
+      213: -205961111805483846
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_97
+  - first:
+      213: 3431057781153559445
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_98
+  - first:
+      213: -9192290242500426035
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_99
+  - first:
+      213: -1318230821212939951
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_100
+  - first:
+      213: -6144742083437465481
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_101
+  - first:
+      213: 4569216096748690251
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_102
+  - first:
+      213: -8765052916667115160
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_103
+  - first:
+      213: -4213581433697785753
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_104
+  - first:
+      213: -3650195900090102821
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_105
+  - first:
+      213: 8717206962995541962
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_106
+  - first:
+      213: -350568840473500476
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_107
+  - first:
+      213: -4875011065020417732
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_108
+  - first:
+      213: -2737844809146967335
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_109
+  - first:
+      213: 2086989490964892397
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_110
+  - first:
+      213: 7331324528810857914
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_111
+  - first:
+      213: 4536230285982604115
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_112
+  - first:
+      213: -7780076187780673578
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_113
+  - first:
+      213: 1163183859209399487
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_114
+  - first:
+      213: 5672229921066225675
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_115
+  - first:
+      213: 6774584912324816369
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_116
+  - first:
+      213: 1864816888357386022
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_117
+  - first:
+      213: -3115575780211043504
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_118
+  - first:
+      213: 1473746904829254819
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_119
+  - first:
+      213: -5631700517011032510
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_120
+  - first:
+      213: 2820705174995708694
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_121
+  - first:
+      213: 2441613698718480042
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_122
+  - first:
+      213: 2428618700410992191
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_123
+  - first:
+      213: -3606291249676977491
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_124
+  - first:
+      213: 6718418477207868329
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_125
+  - first:
+      213: -8532947617198296108
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_126
+  - first:
+      213: -8866707889732120629
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_127
+  - first:
+      213: -963150288262221944
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_128
+  - first:
+      213: 8102966489032343806
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_129
+  - first:
+      213: 897858264453625610
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_130
+  - first:
+      213: -8008295211180391863
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_131
+  - first:
+      213: -7277410738582605698
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_132
+  - first:
+      213: 4532304839445045419
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_133
+  - first:
+      213: 4439955419241369197
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_134
+  - first:
+      213: -3395610231447235310
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_135
+  - first:
+      213: -8799773726892170514
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_136
+  - first:
+      213: -5955865284151810292
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_137
+  - first:
+      213: 2484781126585658057
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_138
+  - first:
+      213: -6157457038078221994
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_139
+  - first:
+      213: -3915076761333505543
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_140
+  - first:
+      213: 2528642958461350869
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_141
+  - first:
+      213: -1471519473041753152
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_142
+  - first:
+      213: -5868010697161626800
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_143
+  - first:
+      213: -6009672392763296052
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_144
+  - first:
+      213: -269190708344558995
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_145
+  - first:
+      213: 1381027634911114397
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_146
+  - first:
+      213: -7597975566494439980
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_147
+  - first:
+      213: -3254695487265019611
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_148
+  - first:
+      213: 6027870496125574217
+    second: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_149
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 708
+        width: 104
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6683f71dfbcd59410800000000000000
+      internalID: 1483334368700086374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 711
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0a2af96b22d53a0800000000000000
+      internalID: -6675140904935579419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 711
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00919b7ed52b3840800000000000000
+      internalID: 5204795431842844687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 645
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a12c18bc46a43b0800000000000000
+      internalID: -5527494767425742235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 662
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c03f8fadb744870800000000000000
+      internalID: 8666187763377441866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 662
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0529c171c5bfb70800000000000000
+      internalID: 8933835540152864932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 662
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149e40b1b4a65d10800000000000000
+      internalID: 2114058158171132948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 662
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5b12b8970af020800000000000000
+      internalID: 2376220105795918716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 662
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819556bd09d31ef20800000000000000
+      internalID: 3450106481907947800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 662
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d957cc068543a80800000000000000
+      internalID: -8488062224916177589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 657
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06c4ea71a7a47f60800000000000000
+      internalID: 8031228347501823503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 662
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa593ec620d868c0800000000000000
+      internalID: -4005723003458856284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_12
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 662
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cde7900c082881e0800000000000000
+      internalID: -2195460786328441399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 662
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffa754b9aa672320800000000000000
+      internalID: 2533110592526856180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 600
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f647d4ea5dd6130800000000000000
+      internalID: 3561737824920432512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 600
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383b2b48056f234b0800000000000000
+      internalID: -5462032572362869885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 600
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f77fc3186f1080800000000000000
+      internalID: -9214531878282332973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 600
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74acc81db0603a860800000000000000
+      internalID: 7539876848978414151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 600
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db037fd0cc80e4c0800000000000000
+      internalID: -4260250487482020905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 600
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda0494acafcc37d0800000000000000
+      internalID: -2937244516549915940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 600
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac26c6fb2ff436aa0800000000000000
+      internalID: -6168999160555216182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 600
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0530e23f7ae719320800000000000000
+      internalID: 2562968922755040080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 600
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941928deb66e69610800000000000000
+      internalID: 1627741666561659209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_23
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 600
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d591b299774ebc10800000000000000
+      internalID: 2071171466114733523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 600
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631fcfc7f24b410e0800000000000000
+      internalID: -2300015393626066634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 600
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b38025f7352d3a80800000000000000
+      internalID: -8485585200630168649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 551
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c77f92daccc20960800000000000000
+      internalID: 7566835495424980930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 551
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bc78fd8543fc620800000000000000
+      internalID: 2796511449932352347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 551
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871aaecbad7dda700800000000000000
+      internalID: 553335663708774776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 552
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e24714454682770800000000000000
+      internalID: 8586223002620014168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 552
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a4bf058cacec730800000000000000
+      internalID: 4021374478989347443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 516
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa86c96f52f8b40800000000000000
+      internalID: 5444612215630507808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 522
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5d2986098236380800000000000000
+      internalID: -8979288631351781900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 515
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908721c0f74ecb4d0800000000000000
+      internalID: -3117365607732709367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 508
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4437263173063a970800000000000000
+      internalID: 8764955089457804100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_35
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 508
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7036850f208940800000000000000
+      internalID: 5296284862560370000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_36
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 514
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a336e2ade79d72fe0800000000000000
+      internalID: -1213762435703479494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 509
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d6adebf8a9581d0800000000000000
+      internalID: -3349100805707109089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 508
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3462d45e8534c8e0800000000000000
+      internalID: -1674154276050279362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 509
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc633373b1cfe5330800000000000000
+      internalID: 3701673137565546187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 464
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752533b925f837890800000000000000
+      internalID: -7461462572668857769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 468
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6912ecf32555f6860800000000000000
+      internalID: 7525327314105541014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 461
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8babc101711dd2b0800000000000000
+      internalID: -5558267188046222452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 459
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698d93c3beb8c6330800000000000000
+      internalID: 3705490435863074966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 464
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfe61e97bc056120800000000000000
+      internalID: 2406343558670249915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_45
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 467
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eadc136e6a4dc9a0800000000000000
+      internalID: -6211226473104352538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_46
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 468
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb52988e40837d20800000000000000
+      internalID: 3275102428815580157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_47
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 468
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90dbe7693ff37ec0800000000000000
+      internalID: -3570229457552944995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_48
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 468
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f761dc1d380705d0800000000000000
+      internalID: -3096497160224413705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_49
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 414
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da97172c9c727e30800000000000000
+      internalID: 4499795987809147603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_50
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 414
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f9dccd66945c190800000000000000
+      internalID: -7942861661658046567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 414
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aedd4017e649fce0800000000000000
+      internalID: -1370986653332676956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 414
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223ad060c9a18f1c0800000000000000
+      internalID: -4469793372746439902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_53
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 414
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f97fc7555a42c070800000000000000
+      internalID: 8125138408135686643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 414
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74685e0067e21c290800000000000000
+      internalID: -7871959589310855609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_55
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 415
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2815301e1452cb0800000000000000
+      internalID: -4889429385761684763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_56
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 414
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3bc0969eb2905b0800000000000000
+      internalID: -5401737996564384782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 368
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9887ac8856edfc9a0800000000000000
+      internalID: -6210500833452590967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_58
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 368
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef933648b9cb75d0800000000000000
+      internalID: -3063633328206536721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 368
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412dbf74109df14b0800000000000000
+      internalID: -5467412823078612460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bed3a68db36759d0800000000000000
+      internalID: -2785648178846507342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_61
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 367
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a50bb5b53a24c40800000000000000
+      internalID: 5495134108121061951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 368
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f4ab283090ba60800000000000000
+      internalID: 7687803134846234625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 368
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e49de42022312340800000000000000
+      internalID: 4837202588412515560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_64
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 368
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e975834ac8f007b0800000000000000
+      internalID: -5259930817168836123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_65
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 320
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6f09e1ab4882c30800000000000000
+      internalID: 4334860576255702768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_66
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 320
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3638aac8655257ea0800000000000000
+      internalID: -5875749085177543837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_67
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 320
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cadfa5b951e4d470800000000000000
+      internalID: 8418601378878839491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_68
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 320
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caf1e899add73a70800000000000000
+      internalID: 8806751316830452423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_69
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 320
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b1e4099a5758fe0800000000000000
+      internalID: -1187413555611296990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_70
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 320
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20041828f19b18610800000000000000
+      internalID: 1621780885814722562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_71
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4eb2fe2da081ef0800000000000000
+      internalID: -137347887562758988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 319
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6945170648e3af3d0800000000000000
+      internalID: -3172154249254447978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_73
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 319
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5603874019b4d1530800000000000000
+      internalID: 3827298344552116325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_74
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 277
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df85959b56182a330800000000000000
+      internalID: 3720678516062771453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_75
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 276
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694b3e95fad4e96a0800000000000000
+      internalID: -6440625001570519914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 277
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba0e379c40064fe0800000000000000
+      internalID: -1205275521320088911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_77
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 277
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0248434c1550262a0800000000000000
+      internalID: -6745823443105315808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_78
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 277
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c25b5e6bb1e5250800000000000000
+      internalID: 5935211831272746014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_79
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 277
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956f2f6020768eb50800000000000000
+      internalID: 6622656510452495961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 239
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bdb9596d682f3f0800000000000000
+      internalID: -868483521937941661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_81
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 240
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80f86af68f5ca2c0800000000000000
+      internalID: -4419052101025861493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_82
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 241
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac0bee9e8141e700800000000000000
+      internalID: 567807108832758951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_83
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 235
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db75af3130b00c30800000000000000
+      internalID: 4323649367843371993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_84
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 237
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e2fc54fd841ab80800000000000000
+      internalID: -8385340907401040279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 238
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd5c3da89ec24990800000000000000
+      internalID: -7403127682306908715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_86
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 227
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27eed5360dbff1a0800000000000000
+      internalID: -6773487480170682580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_87
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 184
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603207be31dc61cc0800000000000000
+      internalID: -3740576955046550778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_88
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 184
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eacc18547abbe5a0800000000000000
+      internalID: -6490889429067183385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_89
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 184
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3abe30055943c790800000000000000
+      internalID: -7511079124098696642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_90
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 184
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8c13deeae6a9910800000000000000
+      internalID: 1844908694944467130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_91
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 184
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b94dce7789a5380800000000000000
+      internalID: -8981698865995146417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_92
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 184
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84267582674390a0800000000000000
+      internalID: -6876073717593135986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_93
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 184
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0084b67f06382f0800000000000000
+      internalID: -971826478808825629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_94
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 184
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b535d8d592a23340800000000000000
+      internalID: 4842111313848382902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_95
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 195
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f655a83a08d2ba0800000000000000
+      internalID: -6112087679383015623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_96
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 195
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ecaedd28482dc90800000000000000
+      internalID: -7146503961079787917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_97
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 156
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab42a45c577442df0800000000000000
+      internalID: -205961111805483846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_98
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 179
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5937f799fd09d9f20800000000000000
+      internalID: 3431057781153559445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_99
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 181
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6097f2abc6e6080800000000000000
+      internalID: -9192290242500426035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_100
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 181
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15991a96d04b4bde0800000000000000
+      internalID: -1318230821212939951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_101
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 181
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770f050a1ad79baa0800000000000000
+      internalID: -6144742083437465481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_102
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 179
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd3bcc4dd196f30800000000000000
+      internalID: 4569216096748690251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_103
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8691e80cfc64c5680800000000000000
+      internalID: -8765052916667115160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_104
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 134
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682344b20a5685c0800000000000000
+      internalID: -4213581433697785753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_105
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 135
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbca8e1b26e75dc0800000000000000
+      internalID: -3650195900090102821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_106
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 135
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac739ee0c8db9f870800000000000000
+      internalID: 8717206962995541962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_107
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 135
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4a14a3f77822bf0800000000000000
+      internalID: -350568840473500476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_108
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 167
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39fb59e34b785cb0800000000000000
+      internalID: -4875011065020417732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_109
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 167
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dad5acd6a8310ad0800000000000000
+      internalID: -2737844809146967335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_110
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 167
+        width: 46
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea8fea72e976fc10800000000000000
+      internalID: 2086989490964892397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_111
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 165
+        width: 46
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab511e0e0d81eb560800000000000000
+      internalID: 7331324528810857914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_112
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 135
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b9c5f396de3fe30800000000000000
+      internalID: 4536230285982604115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_113
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 159
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df8bd58ded970490800000000000000
+      internalID: -7780076187780673578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_114
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 153
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbce4a0ae85742010800000000000000
+      internalID: 1163183859209399487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_115
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 143
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b009e797f0fc7be40800000000000000
+      internalID: 5672229921066225675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_116
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 135
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd67df9519240e50800000000000000
+      internalID: 6774584912324816369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_117
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 117
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627f0b9641921e910800000000000000
+      internalID: 1864816888357386022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_118
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 109
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053d5bdb55043c4d0800000000000000
+      internalID: -3115575780211043504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_119
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 97
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acdd2f600dc37410800000000000000
+      internalID: 1473746904829254819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_120
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 97
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2467c22c73e28d1b0800000000000000
+      internalID: -5631700517011032510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 97
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ba9b37968252720800000000000000
+      internalID: 2820705174995708694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_122
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b7d609ba52e120800000000000000
+      internalID: 2441613698718480042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_123
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 74
+        width: 46
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f363ed437df24b120800000000000000
+      internalID: 2428618700410992191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_124
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 74
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa77622731e3fdc0800000000000000
+      internalID: -3606291249676977491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_125
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a35562620e9c3d50800000000000000
+      internalID: 6718418477207868329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_126
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 57
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d331e50a51e49980800000000000000
+      internalID: -8532947617198296108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_127
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 57
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf0d51f62023f480800000000000000
+      internalID: -8866707889732120629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_128
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 59
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fa0d27ae332a2f0800000000000000
+      internalID: -963150288262221944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_129
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 57
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0caa52715837070800000000000000
+      internalID: 8102966489032343806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_130
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 59
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07386f9555d57c00800000000000000
+      internalID: 897858264453625610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_131
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 57
+        width: 56
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94281296fe1dcd090800000000000000
+      internalID: -8008295211180391863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_132
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 43
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70bb2a9d71710b90800000000000000
+      internalID: -7277410738582605698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_133
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 45
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0e7e00d3bf5ee30800000000000000
+      internalID: 4532304839445045419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_134
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 45
+        width: 49
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec37e0ee3ed9d30800000000000000
+      internalID: 4439955419241369197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_135
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215d7e63c7e50e0d0800000000000000
+      internalID: -3395610231447235310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_136
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 29
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e6c82b6ce0e580800000000000000
+      internalID: -8799773726892170514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_137
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 29
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07ec006414885da0800000000000000
+      internalID: -5955865284151810292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_138
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 29
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caabba0547bb7220800000000000000
+      internalID: 2484781126585658057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_139
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 31
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6516e9d82715c8aa0800000000000000
+      internalID: -6157457038078221994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_140
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 31
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f16454bd6adaa9c0800000000000000
+      internalID: -3915076761333505543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_141
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 31
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b1e69f5b871320800000000000000
+      internalID: 2528642958461350869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_142
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 31
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbb641f5dc149be0800000000000000
+      internalID: -1471519473041753152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_143
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 29
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b2d796c53a09ea0800000000000000
+      internalID: -5868010697161626800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_144
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 17
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc63fd4acca599ca0800000000000000
+      internalID: -6009672392763296052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_145
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 17
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a694c1a74a34cf0800000000000000
+      internalID: -269190708344558995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_146
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 17
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94ffd321556a2310800000000000000
+      internalID: 1381027634911114397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_147
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d560036a719e8690800000000000000
+      internalID: -7597975566494439980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_148
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 17
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529608dc2bff4d2d0800000000000000
+      internalID: -3254695487265019611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raccoon_luigi_sprite_sheet_by_jmkrebs30_d4qry11_149
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 17
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c5f99774c47a350800000000000000
+      internalID: 6027870496125574217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

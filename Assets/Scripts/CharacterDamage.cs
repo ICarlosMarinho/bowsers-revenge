@@ -25,4 +25,6 @@ public class CharacterDamage : MonoBehaviour
     {
         destroyEnemy(collision.collider);
     }
+
+
 }
