@@ -9,8 +9,7 @@ public class LuigiBoss : MonoBehaviour
     public float velocityBonus;
     public Transform player;
     public Animator luigiController;
-    public bool right_left = false;
-   
+  
 
     // Start is called before the first frame update
     void Start()

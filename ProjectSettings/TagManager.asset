@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Projectile
   - BossLuigi
+  - BossMario
+  - Ground
   layers:
   - Default
   - TransparentFX
