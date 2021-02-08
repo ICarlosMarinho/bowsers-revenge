@@ -15,6 +15,7 @@ public class StageClearMenu : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("Player") != null) {
 
             if (GameObject.FindGameObjectWithTag("Player").transform.position.x < StageClearPoint.position.x) {
+                
                 StageClearUI.SetActive(true);
                 scoreTextResult.text = $"Your Score: {Player.playerScore}";
                 Time.timeScale = 0f;
