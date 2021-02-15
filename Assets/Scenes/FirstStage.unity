@@ -903,6 +903,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6368910386385704533, guid: c24ff2cb67f2692429030ce06a9ee80e,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1691440250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24ff2cb67f2692429030ce06a9ee80e, type: 3}
 --- !u!1001 &518667622
@@ -18241,6 +18246,12 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: -0.06}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!4 &1691440250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3661587757621796469, guid: d4a967d677fcc1d40be782165817b23d,
+    type: 3}
+  m_PrefabInstance: {fileID: 932005816}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1694271736 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1193007285793498584, guid: c3b623215400a6a48b8e716b73b4234c,

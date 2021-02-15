@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
 
     void CheckDamage(GameObject target)
     {
-        if (target.CompareTag("Projectile") || target.CompareTag("Trap") || target.CompareTag("Enemy") || target.CompareTag("BossLuigi")&& !animator.GetBool("isHurt"))
+        if (target.CompareTag("Projectile") || target.CompareTag("Trap") || target.CompareTag("Enemy") || target.CompareTag("BossLuigi") || target.CompareTag("BossMario") && !animator.GetBool("isHurt"))
         {
 
             animator.SetBool("isHurt", true);
