@@ -1,55 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public static int playerScore;
-    public static int lifeCount = 3;
+    [SerializeField] private LayerMask groundLayerMask;
+    public static int stageScore;
     public float speed = 1f;
     public float jumpForce = 5f;
     private Animator animator;
     private ShootLogic shootLogic;
-    private BoxCollider2D baseCollider;
+    private PolygonCollider2D baseCollider;
     private Rigidbody2D rbody;
     private FlipCharacter flipCharacter;
 
-    void Start()
+    void Awake()
     {
-        if (!PlayerPrefs.HasKey("lifeCount")) PlayerPrefs.SetInt("lifeCount", lifeCount);
-        else lifeCount = PlayerPrefs.GetInt("lifeCount");
-
+        stageScore = PlayerPrefs.GetInt("totalScore");
+        
         rbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        baseCollider = GetComponent<BoxCollider2D>();
+        baseCollider = GetComponent<PolygonCollider2D>();
         shootLogic = GetComponent<ShootLogic>();
         flipCharacter = GetComponent<FlipCharacter>();
-        playerScore = 0;
     }
 
     void FixedUpdate()
     {
         if (!animator.GetBool("isHurt"))
         {
-            if (rbody.velocity.y > 0 && !baseCollider.IsTouchingLayers()) animator.SetBool("isJumping", true);
-            else if (baseCollider.IsTouchingLayers()) animator.SetBool("isJumping", false);
+            if (!Grounded()) animator.SetBool("isJumping", true);
+            else animator.SetBool("isJumping", false);
 
-            if (baseCollider.IsTouchingLayers() && Input.GetButton("Horizontal")) animator.SetBool("isRunning", true);
+            if (Grounded() && Input.GetButton("Horizontal") && !animator.GetBool("isCrouching")) {
 
-            if (Input.GetButtonDown("Fire1") && !shootLogic.shootCooldown && !animator.GetBool("isCrouching"))
+                animator.SetBool("isRunning", true);
+                Run();
+
+            } else animator.SetBool("isRunning", false);
+
+            if (Input.GetButtonDown("Fire1") && !shootLogic.shootCooldown && !animator.GetBool("isCrouching")) 
                 shootLogic.shoot(flipCharacter.facingLeft);
+            
+                
 
-            if (Input.GetButton("Horizontal") && !animator.GetBool("isCrouching")) Run();
+            if (Input.GetButtonDown("Jump") && Grounded() && !animator.GetBool("isCrouching")) Jump();
 
-            else
-            {
-                animator.SetBool("isRunning", false);
-            }
-
-            if (Input.GetButtonDown("Jump") && baseCollider.IsTouchingLayers() && !animator.GetBool("isCrouching")) Jump();
-
-            if (Input.GetAxisRaw("Vertical") < 0 && baseCollider.IsTouchingLayers()) animator.SetBool("isCrouching", true);
+            if (Input.GetAxisRaw("Vertical") < 0 && Grounded()) animator.SetBool("isCrouching", true);
             else animator.SetBool("isCrouching", false);
         }
     }
@@ -63,43 +60,20 @@ public class Player : MonoBehaviour
     {
         rbody.velocity = new Vector2(rbody.velocity.x, jumpForce);
     }
+    private bool Grounded() {
 
-    void OnTriggerEnter2D(Collider2D collisionInfo)
-    {
-        CheckDamage(collisionInfo.transform.gameObject);
+        Bounds boundsCollider = baseCollider.bounds; 
+        float extraHeight = 0.2f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(
+            boundsCollider.center, 
+            baseCollider.bounds.size, 
+            0f, 
+            Vector2.down, 
+            extraHeight, 
+            groundLayerMask
+        );
+
+        return raycastHit.collider != null;
     }
-
-    void OnCollisionEnter2D(Collision2D collisionInfo)
-    {
-
-        CheckDamage(collisionInfo.transform.gameObject);
-    }
-
-    void CheckDamage(GameObject target)
-    {
-        if (target.CompareTag("Projectile") || target.CompareTag("Trap") || target.CompareTag("Enemy") || target.CompareTag("BossLuigi") || target.CompareTag("BossMario") && !animator.GetBool("isHurt"))
-        {
-
-            animator.SetBool("isHurt", true);
-            rbody.AddForce(new Vector2((Random.Range(-1f, 1f) * 2f), 2f), ForceMode2D.Impulse);
-
-            if (lifeCount > 0 && PlayerPrefs.GetInt("lifeCount") > 0)
-            {
-                lifeCount--;
-                PlayerPrefs.SetInt("lifeCount", lifeCount);
-            }
-
-            StartCoroutine(ReloadStage());
-        }
-    }
-    IEnumerator ReloadStage()
-    {
-        yield return new WaitForSeconds(2);
-
-        string currScene = SceneManager.GetActiveScene().name;
-
-        SceneManager.LoadScene(currScene);
-    }
-
 }
 

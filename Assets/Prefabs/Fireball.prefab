@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8238008083162462957}
   - component: {fileID: 1750245095558150744}
   - component: {fileID: 888184828161727381}
-  - component: {fileID: 6139824217731278441}
+  - component: {fileID: -8171879450815294479}
   m_Layer: 0
   m_Name: Fireball
-  m_TagString: Projectile
+  m_TagString: Fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5093700999244876117}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.204393, y: -2.4483757, z: -6.5448294}
+  m_LocalPosition: {x: 11.204393, y: -2.4483757, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1598506123
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 5353841184698615464, guid: 3b313eea2d2990641a430c148013a114,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -142,7 +142,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6139824217731278441
+--- !u!114 &-8171879450815294479
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,6 +151,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5093700999244876117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49583bb24e25f514e9282eb66099f140, type: 3}
+  m_Script: {fileID: 11500000, guid: 7055e52189c66884692d6f1ba55e0547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6300899017959371899}
   - component: {fileID: 6300899017959371892}
   - component: {fileID: 6300899017959371893}
-  - component: {fileID: 5055839857930470835}
+  - component: {fileID: 335660925668158011}
   m_Layer: 0
   m_Name: Arrow
-  m_TagString: Projectile
+  m_TagString: Arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,7 @@ PolygonCollider2D:
       - {x: 0.21852791, y: -0.33882096}
       - {x: 0.21688662, y: -0.41068804}
       - {x: 0.032785937, y: -0.6000202}
---- !u!114 &5055839857930470835
+--- !u!114 &335660925668158011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,6 +146,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6300899017959371894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49583bb24e25f514e9282eb66099f140, type: 3}
+  m_Script: {fileID: 11500000, guid: 7055e52189c66884692d6f1ba55e0547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

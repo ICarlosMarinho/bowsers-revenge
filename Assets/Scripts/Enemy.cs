@@ -27,10 +27,13 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentPosition = transform.position;
-        playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
+        if (GameObject.FindGameObjectWithTag("Player") != null) {
 
-        checkAndToggleAnimationState();
+            currentPosition = transform.position;
+            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
+
+            checkAndToggleAnimationState();
+        }
     }
 
     public bool playerInRange()
@@ -78,28 +81,5 @@ public class Enemy : MonoBehaviour
         {
             if (enemyAnimator.GetBool("isRunning")) enemyAnimator.SetBool("isRunning", false);
         }
-    }
-
-    void CheckDamage(GameObject target)
-    {
-        if (target.CompareTag("Projectile") || target.CompareTag("Trap"))
-        {
-            rbody.velocity = new Vector2(0, 0);
-            enemyAnimator.SetBool("isHurt", true);
-            rbody.AddForce(new Vector2((Random.Range(-1f, 1f) * 2f), 2f), ForceMode2D.Impulse);
-
-            Player.playerScore += scoreValue;
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D collisionInfo)
-    {
-        CheckDamage(collisionInfo.transform.gameObject);
-    }
-
-    void OnCollisionEnter2D(Collision2D collisionInfo)
-    {
-
-        CheckDamage(collisionInfo.transform.gameObject);
     }
 }

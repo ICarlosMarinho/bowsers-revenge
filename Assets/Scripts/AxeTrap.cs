@@ -36,7 +36,12 @@ public class AxeTrap : MonoBehaviour
 
     void checkAndToggleDirection()
     {
-        if (transform.rotation.z >= maxRight || transform.rotation.z <= maxLeft) clockwise = !clockwise;
+        if (transform.rotation.z >= maxRight || transform.rotation.z <= maxLeft) {
+
+            clockwise = !clockwise;
+    
+            AudioManager.instance.Play("AxeTrap");
+        } 
     }
 
 }

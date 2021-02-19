@@ -1,37 +1,25 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class StageClearMenu : MonoBehaviour
 {
     public GameObject StageClearUI;
-    public Transform StageClearPoint;
-    public TMP_Text scoreTextResult;
+
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindGameObjectWithTag("Player") != null) {
-
-            if (GameObject.FindGameObjectWithTag("Player").transform.position.x < StageClearPoint.position.x) {
-                
-                StageClearUI.SetActive(true);
-                scoreTextResult.text = $"Your Score: {Player.playerScore}";
-                Time.timeScale = 0f;
-            }
+        if (GameObject.FindGameObjectWithTag("Player") != null && GameObject.FindGameObjectWithTag("Boss") == null) {
+  
+            Time.timeScale = 0f;
+            StageClearUI.SetActive(true);
             
         }
     }
-
-    public void ResetLifes()
+    public void NextStage()
     {
-        PlayerPrefs.SetInt("lifeCount", 3);
-    }
-
-    public void Retry()
-    {
-        SceneManager.LoadScene("FirstStage");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         StageClearUI.SetActive(false);
         Time.timeScale = 1f;
     }

@@ -6,10 +6,12 @@ TagManager:
   tags:
   - Trap
   - Enemy
-  - Projectile
-  - BossLuigi
-  - BossMario
   - Ground
+  - Boss
+  - Fireball
+  - Apple
+  - Arrow
+  - Projectile
   layers:
   - Default
   - TransparentFX

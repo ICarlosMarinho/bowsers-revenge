@@ -8,9 +8,10 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         PlayerPrefs.SetInt("lifeCount", 3);
+        PlayerPrefs.SetInt("totalScore", 0);
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
     public void QuitGame()
     {
         Application.Quit();

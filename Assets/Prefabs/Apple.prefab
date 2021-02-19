@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 135673935653521608}
   - component: {fileID: 135673935653521611}
   - component: {fileID: 135673935653521614}
-  - component: {fileID: 135673935653521615}
+  - component: {fileID: -2782701956017248170}
   m_Layer: 0
   m_Name: Apple
-  m_TagString: Projectile
+  m_TagString: Apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135673935653521610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.001729, y: -2.872641, z: -121.160645}
+  m_LocalPosition: {x: 5.001729, y: -2.872641, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -122,7 +122,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
---- !u!114 &135673935653521615
+--- !u!114 &-2782701956017248170
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,6 +131,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 135673935653521610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49583bb24e25f514e9282eb66099f140, type: 3}
+  m_Script: {fileID: 11500000, guid: 7055e52189c66884692d6f1ba55e0547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

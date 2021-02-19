@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 5243744215641734030}
   - component: {fileID: 5243744215641734031}
   - component: {fileID: 5243744215641734020}
+  - component: {fileID: 1001881658896779348}
   m_Layer: 0
   m_Name: Yoshi
   m_TagString: Enemy
@@ -305,3 +306,15 @@ MonoBehaviour:
   lastFlipX: 0
   lastFlipY: 0
   editorCache: []
+--- !u!114 &1001881658896779348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243744215641734023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49583bb24e25f514e9282eb66099f140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class Score : MonoBehaviour
+public class HudScore : MonoBehaviour
 {
     private TMP_Text scoreText;
 
@@ -13,6 +13,6 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!scoreText.text.Equals(Player.playerScore.ToString())) scoreText.text = $"{Player.playerScore}";
+        scoreText.text = $"{Player.stageScore}";
     }
 }
