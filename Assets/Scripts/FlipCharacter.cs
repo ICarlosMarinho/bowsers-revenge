@@ -13,8 +13,8 @@ public class FlipCharacter : MonoBehaviour
     {
         rbody2d = GetComponent<Rigidbody2D>();
 
-        facingLeft = CompareTag("Player") ? true : false;
-        enemy = CompareTag("Enemy") ? GetComponent<Enemy>() : null;
+        facingLeft = CompareTag("Player")? true : false;
+        enemy = CompareTag("Enemy") || CompareTag("Boss")? GetComponent<Enemy>() : null;
     }
 
     // Update is called once per frame
@@ -25,19 +25,10 @@ public class FlipCharacter : MonoBehaviour
             if (facingLeft && Input.GetAxisRaw("Horizontal") > 0) Flip();
             else if (!facingLeft && Input.GetAxisRaw("Horizontal") < 0) Flip();
         }
-        else if (CompareTag("Enemy") && !enemy.enemyAnimator.GetBool("isHurt"))
+        else if ((CompareTag("Enemy") || CompareTag("Boss")) && !enemy.enemyAnimator.GetBool("isHurt"))
         {
-            if (facingLeft)
-            {
-                if (!enemy.playerInRange() && rbody2d.velocity.x > 0) Flip();
-                else if (enemy.playerInRange() && !enemy.playerInLeftSide()) Flip();
-            }
-            else
-            {
-                if (!enemy.playerInRange() && rbody2d.velocity.x < 0) Flip();
-                else if (enemy.playerInRange() && enemy.playerInLeftSide()) Flip();
-            }
-
+            if (facingLeft && !enemy.playerInLeftSide()) Flip();
+            else if (!facingLeft && enemy.playerInLeftSide()) Flip();
         }
     }
     void Flip()

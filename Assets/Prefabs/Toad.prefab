@@ -136,18 +136,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.29812497, y: -0.86125}
-      - {x: 0.43062496, y: -0.86125}
-      - {x: 0.36437497, y: 0.06625}
-      - {x: 0.56312495, y: 0.59625}
-      - {x: 0.29812497, y: 0.86125}
-      - {x: -0.165625, y: 0.86125}
-      - {x: -0.56312495, y: 0.53}
-      - {x: 0.56312495, y: 0.46374997}
-      - {x: -0.56312495, y: 0.39749998}
-      - {x: -0.49687496, y: 0}
-      - {x: -0.23187499, y: -0.1325}
-      - {x: -0.29812497, y: -0.66249996}
+    - - {x: -0.2840625, y: -0.820625}
+      - {x: 0.41031247, y: -0.820625}
+      - {x: 0.2840625, y: 0.820625}
+      - {x: -0.5365625, y: 0.505}
+      - {x: 0.5365625, y: 0.44187498}
+      - {x: -0.5365625, y: 0.37875}
+      - {x: -0.2840625, y: -0.63124996}
 --- !u!95 &2478021233847025114
 Animator:
   serializedVersion: 3
@@ -180,6 +175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 5
+  speed: 2
+  scoreValue: 100
 --- !u!114 &7322090849109024452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b63ed3fc8f7a51b4aa1caac0107ccb80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.7
 --- !u!114 &8256849282200024612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,15 +225,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AlphaTolerance: 2
-  DistanceThreshold: 2
-  Scale: 1.06
+  AlphaTolerance: 1
+  DistanceThreshold: 5
+  Scale: 1.01
   Decompose: 0
   RunInPlayMode: 1
   UseCache: 0
-  lastAlphaTolerance: 2
-  lastScale: 1.06
-  lastDistanceThreshold: 2
+  lastAlphaTolerance: 1
+  lastScale: 1.01
+  lastDistanceThreshold: 5
   lastDecompose: 0
   lastSprite: {fileID: -8702087391129950295, guid: 157727ed4795bab4fab7e71d4d25a2f3,
     type: 3}

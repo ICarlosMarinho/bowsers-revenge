@@ -187,34 +187,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.735625, y: -0.9696875}
-      - {x: 0.066875, y: -0.9696875}
-      - {x: 0.13375, y: -0.9696875}
-      - {x: 0, y: -0.70218754}
-      - {x: 0.13375, y: -0.5684375}
-      - {x: 0.33437502, y: -0.5684375}
-      - {x: 0.46812502, y: -0.50156254}
-      - {x: 0.46812502, y: -0.30093753}
-      - {x: 0.33437502, y: -0.10031251}
-      - {x: 0.535, y: -0.0334375}
-      - {x: 0.66875005, y: 0.0334375}
-      - {x: 0.8025, y: 0.16718751}
-      - {x: 0.8025, y: 0.3678125}
-      - {x: 0.535, y: 0.6353125}
-      - {x: 0.46812502, y: 0.8359375}
-      - {x: 0.33437502, y: 0.9696875}
-      - {x: 0.200625, y: 0.90281254}
-      - {x: 0.13375, y: 0.9696875}
-      - {x: -0.2675, y: 0.7690625}
-      - {x: -0.46812502, y: 0.43468753}
-      - {x: -0.33437502, y: 0.23406251}
-      - {x: -0.2675, y: 0.10031251}
-      - {x: -0.33437502, y: -0.0334375}
-      - {x: -0.46812502, y: -0.0334375}
-      - {x: -0.8025, y: -0.23406251}
-      - {x: -0.8025, y: -0.43468753}
-      - {x: -0.66875005, y: -0.6353125}
-      - {x: -0.735625, y: -0.8359375}
+    - - {x: -0.694375, y: -0.91531247}
+      - {x: 0.441875, y: -0.4734375}
+      - {x: 0.7575, y: 0.34718752}
+      - {x: 0.315625, y: 0.91531247}
+      - {x: -0.441875, y: 0.4103125}
+      - {x: -0.694375, y: -0.7890625}
 --- !u!114 &2410886186128975198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,15 +261,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AlphaTolerance: 20
-  DistanceThreshold: 1
-  Scale: 1.07
+  AlphaTolerance: 1
+  DistanceThreshold: 5
+  Scale: 1.01
   Decompose: 0
   RunInPlayMode: 1
   UseCache: 0
-  lastAlphaTolerance: 20
-  lastScale: 1.07
-  lastDistanceThreshold: 1
+  lastAlphaTolerance: 1
+  lastScale: 1.01
+  lastDistanceThreshold: 5
   lastDecompose: 0
   lastSprite: {fileID: 6910661364944560616, guid: ed2bbf2a96811254a90d61bc34db72ba,
     type: 3}

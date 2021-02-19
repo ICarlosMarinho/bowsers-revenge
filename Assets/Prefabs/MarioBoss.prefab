@@ -10,11 +10,16 @@ GameObject:
   m_Component:
   - component: {fileID: 6929752588508182791}
   - component: {fileID: 6929752588508182790}
-  - component: {fileID: 6929752588508182785}
   - component: {fileID: 6929752588508182784}
+  - component: {fileID: 4977607965233673358}
   - component: {fileID: 6929752588508182787}
-  - component: {fileID: 6929752588508182788}
+  - component: {fileID: 8511444447415060409}
+  - component: {fileID: -6698399959141304676}
+  - component: {fileID: 8431389802244773638}
   - component: {fileID: 76617043096328157}
+  - component: {fileID: 1241781008028874683}
+  - component: {fileID: 188335323233774410}
+  - component: {fileID: 6426436241424031208}
   m_Layer: 0
   m_Name: MarioBoss
   m_TagString: Boss
@@ -32,7 +37,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -61.761, y: -3.354, z: 0}
   m_LocalScale: {x: 1.7929652, y: 1.6393299, z: 6.5045776}
-  m_Children: []
+  m_Children:
+  - {fileID: 4420096241448387481}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -87,32 +93,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6929752588508182785
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6929752588508182786}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0047473162, y: 0.18597886}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.53125, y: 1.0625}
-    newSize: {x: 0.17, y: 0.34}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.540221, y: 0.7051987}
-  m_EdgeRadius: 0
 --- !u!50 &6929752588508182784
 Rigidbody2D:
   serializedVersion: 4
@@ -129,11 +109,42 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ead844d759d82ad4b8bebf63ec311219, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &4977607965233673358
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929752588508182786}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53125, y: 1.0625}
+    newSize: {x: 0.17, y: 0.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.12625, y: -0.5207812}
+      - {x: 0.0946875, y: -0.48921874}
+      - {x: 0.2525, y: 0.11046875}
+      - {x: 0.12625, y: 0.5207812}
+      - {x: -0.2525, y: 0.33140624}
+      - {x: -0.1578125, y: -0.48921874}
 --- !u!95 &6929752588508182787
 Animator:
   serializedVersion: 3
@@ -144,7 +155,7 @@ Animator:
   m_GameObject: {fileID: 6929752588508182786}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5ef5406554bd218419e07ac5a7db02d9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5fa9a9689bfd4644ea94a06d8b456064, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -153,7 +164,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6929752588508182788
+--- !u!114 &8511444447415060409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,13 +173,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 6929752588508182786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 431aa1d42b9840146895d78bbe121e37, type: 3}
+  m_Script: {fileID: 11500000, guid: 193fd316f9008e246aac78237bca0c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityBonus: 0
-  marioController: {fileID: 6929752588508182787}
-  player: {fileID: 0}
-  Mario: {fileID: 6929752588508182784}
+--- !u!114 &-6698399959141304676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929752588508182786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989f54441ae63c543885144e359f2266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 700
+--- !u!114 &8431389802244773638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929752588508182786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d901dfbf9a5446b4aac2fa6ba2be4bea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistance: 6
+  speed: 10
+  scoreValue: 1000
 --- !u!114 &76617043096328157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,3 +216,98 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49583bb24e25f514e9282eb66099f140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1241781008028874683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929752588508182786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaTolerance: 1
+  DistanceThreshold: 5
+  Scale: 1.01
+  Decompose: 0
+  RunInPlayMode: 1
+  UseCache: 0
+  lastAlphaTolerance: 1
+  lastScale: 1.01
+  lastDistanceThreshold: 5
+  lastDecompose: 0
+  lastSprite: {fileID: -1606481954052970760, guid: d3e5fe52ec810484bbd359d2a98065b5,
+    type: 3}
+  lastRect:
+    serializedVersion: 2
+    x: 14
+    y: 812
+    width: 17
+    height: 34
+  lastOffset: {x: 8.5, y: 17}
+  lastPixelsPerUnit: 32
+  lastFlipX: 0
+  lastFlipY: 0
+  editorCache: []
+--- !u!114 &188335323233774410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929752588508182786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431aa1d42b9840146895d78bbe121e37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinCooldownTime: 5
+--- !u!114 &6426436241424031208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6929752588508182786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e11c88424f22e04fb338efc07a06079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 4420096241448387481}
+  projectilePrefab: {fileID: 7796706419726077863, guid: 4934a4df877823e4fa5a1c99abcd0122,
+    type: 3}
+  projectileSpeed: 5
+  cooldownTime: 3
+--- !u!1 &7709115201728626270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4420096241448387481}
+  m_Layer: 0
+  m_Name: Fire Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4420096241448387481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709115201728626270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.86, y: -0.15357247, z: -0.048268292}
+  m_LocalScale: {x: 0.5577353, y: 0.6100053, z: 0.15373789}
+  m_Children: []
+  m_Father: {fileID: 6929752588508182791}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
