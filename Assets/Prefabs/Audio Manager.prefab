@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6275588001975591208}
   - component: {fileID: 6275588001975591215}
   m_Layer: 0
-  m_Name: Audio Manager 1
+  m_Name: Audio Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,5 +108,11 @@ MonoBehaviour:
     source: {fileID: 0}
     name: SecondStageMusic
     volume: 0.02
+    spatialBlend: 0
+    loop: 1
+  - clip: {fileID: 8300000, guid: 4e080ac576ef23a43af9d07203bfd47b, type: 3}
+    source: {fileID: 0}
+    name: MainMenuMusic
+    volume: 0.01
     spatialBlend: 0
     loop: 1

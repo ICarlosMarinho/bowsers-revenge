@@ -32,6 +32,7 @@ public class CharacterDamage : MonoBehaviour
         int currentLifes = PlayerPrefs.GetInt("lifeCount");
 
         if ((hitSource.CompareTag("Apple")
+        || hitSource.CompareTag("Fireball")
         || hitSource.CompareTag("Arrow") 
         || hitSource.CompareTag("Trap") 
         || hitSource.CompareTag("Enemy") 

@@ -17,14 +17,12 @@ public class GameOver : MonoBehaviour
         }
     }
 
-    public void ResetLifes()
-    {
-        PlayerPrefs.SetInt("lifeCount", 3);
-    }
-
     public void Retry()
     {
         SceneManager.LoadScene("FirstStage");
+        PlayerPrefs.SetInt("totalScore", 0);
+        PlayerPrefs.SetInt("lifeCount", 3);
+
         gameOverUI.SetActive(false);
         Time.timeScale = 1f;
     }

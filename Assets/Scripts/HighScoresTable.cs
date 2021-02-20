@@ -18,8 +18,6 @@ public class HighScoresTable : MonoBehaviour
         List<HighScores.HighScoreEntry> highScoreList = highScores.GetHighScoresList();
         Transform rankingEntry;
         RectTransform rankingEntryRect;
-
-        PlayerPrefs.DeleteKey("highScoreList");
         
         if (highScoreList != null) {
 

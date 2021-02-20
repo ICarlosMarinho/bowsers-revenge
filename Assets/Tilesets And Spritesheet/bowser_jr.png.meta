@@ -1,0 +1,2300 @@
+fileFormatVersion: 2
+guid: 1efe1b50ab08dc34bb89f9550f7f1822
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5838568361829372509
+    second: bowser_jr_0
+  - first:
+      213: -5270452696284889526
+    second: bowser_jr_1
+  - first:
+      213: -4238580436011069976
+    second: bowser_jr_2
+  - first:
+      213: 7631114003617996711
+    second: bowser_jr_3
+  - first:
+      213: 223640510043443275
+    second: bowser_jr_4
+  - first:
+      213: 7278539808704274185
+    second: bowser_jr_5
+  - first:
+      213: -3527918234181232689
+    second: bowser_jr_6
+  - first:
+      213: -7929524008889700295
+    second: bowser_jr_7
+  - first:
+      213: 5926085323099336232
+    second: bowser_jr_8
+  - first:
+      213: -1488798855023353821
+    second: bowser_jr_9
+  - first:
+      213: -2658674025999404140
+    second: bowser_jr_10
+  - first:
+      213: -3569886436630389641
+    second: bowser_jr_11
+  - first:
+      213: -15011051107479074
+    second: bowser_jr_12
+  - first:
+      213: 2665839758884537150
+    second: bowser_jr_13
+  - first:
+      213: -8627418642975711888
+    second: bowser_jr_14
+  - first:
+      213: 2558216867592420455
+    second: bowser_jr_15
+  - first:
+      213: -2620746948076451820
+    second: bowser_jr_16
+  - first:
+      213: 8337161193035447014
+    second: bowser_jr_17
+  - first:
+      213: -8298836280645758226
+    second: bowser_jr_18
+  - first:
+      213: 4974336210478589555
+    second: bowser_jr_19
+  - first:
+      213: -8636006304462793864
+    second: bowser_jr_20
+  - first:
+      213: 9060247523804012778
+    second: bowser_jr_21
+  - first:
+      213: 1035861988159787413
+    second: bowser_jr_22
+  - first:
+      213: -7147624239661137771
+    second: bowser_jr_23
+  - first:
+      213: -8004171056660613579
+    second: bowser_jr_24
+  - first:
+      213: 1610590546384559572
+    second: bowser_jr_25
+  - first:
+      213: 8731563207121823590
+    second: bowser_jr_26
+  - first:
+      213: -5984927194771322426
+    second: bowser_jr_27
+  - first:
+      213: -9015289200000176871
+    second: bowser_jr_28
+  - first:
+      213: 571991358139075440
+    second: bowser_jr_29
+  - first:
+      213: -8051589251473601301
+    second: bowser_jr_30
+  - first:
+      213: -4130928285677984306
+    second: bowser_jr_31
+  - first:
+      213: -7610792427771027705
+    second: bowser_jr_32
+  - first:
+      213: -3026668785065211051
+    second: bowser_jr_33
+  - first:
+      213: 7089453236721683635
+    second: bowser_jr_34
+  - first:
+      213: -5498652374592245609
+    second: bowser_jr_35
+  - first:
+      213: -2639815807777109896
+    second: bowser_jr_36
+  - first:
+      213: 1801833295315106142
+    second: bowser_jr_37
+  - first:
+      213: -3204783122475580579
+    second: bowser_jr_38
+  - first:
+      213: 2420657288003138565
+    second: bowser_jr_39
+  - first:
+      213: 3817746928385662652
+    second: bowser_jr_40
+  - first:
+      213: 2787492850887501078
+    second: bowser_jr_41
+  - first:
+      213: 415003596275722147
+    second: bowser_jr_42
+  - first:
+      213: -8993143128101699375
+    second: bowser_jr_43
+  - first:
+      213: -1249084446538430777
+    second: bowser_jr_44
+  - first:
+      213: -7809917525998687133
+    second: bowser_jr_45
+  - first:
+      213: 5617601132183317704
+    second: bowser_jr_46
+  - first:
+      213: 2450493552510583042
+    second: bowser_jr_47
+  - first:
+      213: -2256597298188875138
+    second: bowser_jr_48
+  - first:
+      213: -2662300036181776559
+    second: bowser_jr_49
+  - first:
+      213: 1577158771416874927
+    second: bowser_jr_50
+  - first:
+      213: -8727702369107743748
+    second: bowser_jr_51
+  - first:
+      213: 4662247075152098986
+    second: bowser_jr_52
+  - first:
+      213: -5150685131419866303
+    second: bowser_jr_53
+  - first:
+      213: 2159028461812474839
+    second: bowser_jr_54
+  - first:
+      213: 6680287967933503475
+    second: bowser_jr_55
+  - first:
+      213: -992645514083092977
+    second: bowser_jr_56
+  - first:
+      213: -3040818166509483016
+    second: bowser_jr_57
+  - first:
+      213: -8763057465442677499
+    second: bowser_jr_58
+  - first:
+      213: -8416367590600113886
+    second: bowser_jr_59
+  - first:
+      213: -9197803090990965618
+    second: bowser_jr_60
+  - first:
+      213: 7376697737103241921
+    second: bowser_jr_61
+  - first:
+      213: -4289554358727730949
+    second: bowser_jr_62
+  - first:
+      213: -2983171182709209285
+    second: bowser_jr_63
+  - first:
+      213: -5992603491971513166
+    second: bowser_jr_64
+  - first:
+      213: -7535381892134077660
+    second: bowser_jr_65
+  - first:
+      213: 63090060512463217
+    second: bowser_jr_66
+  - first:
+      213: -8345673307044756516
+    second: bowser_jr_67
+  - first:
+      213: -6487511081433668158
+    second: bowser_jr_68
+  - first:
+      213: -1737296088861301729
+    second: bowser_jr_69
+  - first:
+      213: 5846302459805964475
+    second: bowser_jr_70
+  - first:
+      213: 5365385336290071137
+    second: bowser_jr_71
+  - first:
+      213: -4529364988962687979
+    second: bowser_jr_72
+  - first:
+      213: 215009601022260487
+    second: bowser_jr_73
+  - first:
+      213: -2255521447022542999
+    second: bowser_jr_74
+  - first:
+      213: 5908481661296899312
+    second: bowser_jr_75
+  - first:
+      213: 6754283732890450224
+    second: bowser_jr_76
+  - first:
+      213: 5592189873149482387
+    second: bowser_jr_77
+  - first:
+      213: 7442117844046152202
+    second: bowser_jr_78
+  - first:
+      213: 7481856039293806331
+    second: bowser_jr_79
+  - first:
+      213: -1034177891136381320
+    second: bowser_jr_80
+  - first:
+      213: 8287412517689889821
+    second: bowser_jr_81
+  - first:
+      213: -7135768963054109024
+    second: bowser_jr_82
+  - first:
+      213: 5042870754965994025
+    second: bowser_jr_83
+  - first:
+      213: 7050095178348379216
+    second: bowser_jr_84
+  - first:
+      213: 7941026143530745502
+    second: bowser_jr_85
+  - first:
+      213: -6502725477970380126
+    second: bowser_jr_86
+  - first:
+      213: 4647846292848561758
+    second: bowser_jr_87
+  - first:
+      213: 806276743565703841
+    second: bowser_jr_88
+  - first:
+      213: 6512008983771093852
+    second: bowser_jr_89
+  - first:
+      213: 6977431437348537006
+    second: bowser_jr_90
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bowser_jr_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 34
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad635c420d39fea0800000000000000
+      internalID: -5838568361829372509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 365
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e707062379bd6b0800000000000000
+      internalID: -5270452696284889526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 365
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edc3a7ec898d25c0800000000000000
+      internalID: -4238580436011069976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 366
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afd82241c927e960800000000000000
+      internalID: 7631114003617996711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 396
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40d686ebd78a1300800000000000000
+      internalID: 223640510043443275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 395
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f9b558461920560800000000000000
+      internalID: 7278539808704274185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 438
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc71107ce015a0fc0800000000000000
+      internalID: -3527918234181232689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 160
+        width: 79
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930b2342deba4f190800000000000000
+      internalID: -7929524008889700295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_8
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 391
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eedff143fad3250800000000000000
+      internalID: 5926085323099336232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 392
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32023505459b65be0800000000000000
+      internalID: -1488798855023353821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 393
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4937fb24f0e7a1bd0800000000000000
+      internalID: -2658674025999404140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_11
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 392
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c19203337357ec0800000000000000
+      internalID: -3569886436630389641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 308
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1980f478baacff0800000000000000
+      internalID: -15011051107479074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 309
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330d60f227fef420800000000000000
+      internalID: 2665839758884537150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 310
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d99d84470454880800000000000000
+      internalID: -8627418642975711888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 313
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c3243efac908320800000000000000
+      internalID: 2558216867592420455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_16
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 315
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418c6b9398c31abd0800000000000000
+      internalID: -2620746948076451820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 327
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eabc02deeb83b370800000000000000
+      internalID: 8337161193035447014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 328
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25cf23f5c94dc80800000000000000
+      internalID: -8298836280645758226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 330
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37660f2ad64680540800000000000000
+      internalID: 4974336210478589555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_20
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 331
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8731678850eb62880800000000000000
+      internalID: -8636006304462793864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_21
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 332
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae06371ae177cbd70800000000000000
+      internalID: 9060247523804012778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_22
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 333
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59118907dfe106e00800000000000000
+      internalID: 1035861988159787413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 251
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590c60faf998ecc90800000000000000
+      internalID: -7147624239661137771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 252
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536f746f4d87be090800000000000000
+      internalID: -8004171056660613579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 278
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd9ad39197f95610800000000000000
+      internalID: 1610590546384559572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 253
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667ed5e997ebc2970800000000000000
+      internalID: 8731563207121823590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_27
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 254
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c984150d6441fca0800000000000000
+      internalID: -5984927194771322426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 262
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de296dc3243e280800000000000000
+      internalID: -9015289200000176871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_29
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 263
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b09741c1f10f700800000000000000
+      internalID: 571991358139075440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_30
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 265
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec00942c32034090800000000000000
+      internalID: -8051589251473601301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_31
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 265
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5ec8b5c9efba6c0800000000000000
+      internalID: -4130928285677984306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_32
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 265
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f99735c98016690800000000000000
+      internalID: -7610792427771027705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_33
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 265
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcc65a6cc1ff5d0800000000000000
+      internalID: -3026668785065211051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_34
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 266
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc0a82482cc26260800000000000000
+      internalID: 7089453236721683635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_35
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 267
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79032156cccd0b3b0800000000000000
+      internalID: -5498652374592245609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780cf8528d7d5bd0800000000000000
+      internalID: -2639815807777109896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e597ab7e5d5610910800000000000000
+      internalID: 1801833295315106142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d530da2dab25683d0800000000000000
+      internalID: -3204783122475580579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 194
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504336e6af6e79120800000000000000
+      internalID: 2420657288003138565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_40
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 193
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe14c4aa9c5bf430800000000000000
+      internalID: 3817746928385662652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_41
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 191
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6152717aaf92fa620800000000000000
+      internalID: 2787492850887501078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 193
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a72680729362c500800000000000000
+      internalID: 415003596275722147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_43
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 196
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c04309ffe13380800000000000000
+      internalID: -8993143128101699375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_44
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 193
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c68c95505c5aaee0800000000000000
+      internalID: -1249084446538430777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_45
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 200
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c20c983699d9390800000000000000
+      internalID: -7809917525998687133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_46
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 12
+        width: 165
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc6e95677ab5fd40800000000000000
+      internalID: 5617601132183317704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_47
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 135
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20147c917e6e10220800000000000000
+      internalID: 2450493552510583042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_48
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 137
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a885896b4fea0e0800000000000000
+      internalID: -2256597298188875138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15720e9f83c9d0bd0800000000000000
+      internalID: -2662300036181776559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafb1b4eb8133e510800000000000000
+      internalID: 1577158771416874927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_51
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 115
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb6ff7cfe8f0e680800000000000000
+      internalID: -8727702369107743748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_52
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 115
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67b816301a3b040800000000000000
+      internalID: 4662247075152098986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_53
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 115
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b25d799271588b0800000000000000
+      internalID: -5150685131419866303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 115
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d36a4e62f866fd10800000000000000
+      internalID: 2159028461812474839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_55
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 115
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f71efd538625bc50800000000000000
+      internalID: 6680287967933503475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_56
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 115
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0631390a2a6932f0800000000000000
+      internalID: -992645514083092977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_57
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 115
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc5ae0df7dcc5d0800000000000000
+      internalID: -3040818166509483016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_58
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d44f1f9ad536680800000000000000
+      internalID: -8763057465442677499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_59
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 115
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2218b27a44e033b80800000000000000
+      internalID: -8416367590600113886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_60
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 115
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c5e7f12d6da5080800000000000000
+      internalID: -9197803090990965618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2777b228b4f5660800000000000000
+      internalID: 7376697737103241921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf81e4ba9017874c0800000000000000
+      internalID: -4289554358727730949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_63
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 116
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b378f666d95a996d0800000000000000
+      internalID: -2983171182709209285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_64
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 119
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4c54dcfdef5dca0800000000000000
+      internalID: -5992603491971513166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_65
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 119
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bff60e712fc6790800000000000000
+      internalID: -7535381892134077660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_66
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 116
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17904b5631420e000800000000000000
+      internalID: 63090060512463217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_67
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3432238563e2c80800000000000000
+      internalID: -8345673307044756516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_68
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 119
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56cb23b0bb7f5a0800000000000000
+      internalID: -6487511081433668158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 119
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f142fb96962e3e7e0800000000000000
+      internalID: -1737296088861301729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_70
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 119
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb81a36bc1d322150800000000000000
+      internalID: 5846302459805964475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_71
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 119
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162d8ac498da57a40800000000000000
+      internalID: 5365385336290071137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_72
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 119
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514b9c64a867421c0800000000000000
+      internalID: -4529364988962687979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_73
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705fa3cc71edbf200800000000000000
+      internalID: 215009601022260487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_74
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 119
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f32f6b137c2b0e0800000000000000
+      internalID: -2255521447022542999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_75
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 119
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4f28734c42ff150800000000000000
+      internalID: 5908481661296899312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_76
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 119
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397223f4490cbd50800000000000000
+      internalID: 6754283732890450224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_77
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 119
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3959c999f037b9d40800000000000000
+      internalID: 5592189873149482387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_78
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0287f6cfb6b74760800000000000000
+      internalID: 7442117844046152202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_79
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 13
+        width: 151
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6e7ba5d64e4d760800000000000000
+      internalID: 7481856039293806331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_80
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ed044ffacd5a1f0800000000000000
+      internalID: -1034177891136381320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_81
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 62
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d141808b6cdc20370800000000000000
+      internalID: 8287412517689889821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_82
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 75
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aef6ed5fe7a8fc90800000000000000
+      internalID: -7135768963054109024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_83
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 71
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a34fdbb30ebf540800000000000000
+      internalID: 5042870754965994025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_84
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 72
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c36223638f6d160800000000000000
+      internalID: 7050095178348379216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_85
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 73
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e7d354431343e60800000000000000
+      internalID: 7941026143530745502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_86
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa71b571ada1c5a0800000000000000
+      internalID: -6502725477970380126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_87
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 7
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ecad7f397708040800000000000000
+      internalID: 4647846292848561758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_88
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 21
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa74ea2d68703b00800000000000000
+      internalID: 806276743565703841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_89
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 14
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b14db2bad4f5a50800000000000000
+      internalID: 6512008983771093852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowser_jr_90
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 15
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea28dcb9ce0d4d060800000000000000
+      internalID: 6977431437348537006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

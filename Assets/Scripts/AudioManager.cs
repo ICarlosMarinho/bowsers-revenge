@@ -40,6 +40,8 @@ public class AudioManager : MonoBehaviour
             break;
             case "ThirdStage": Play("ThirdStageMusic");
             break;
+            case "MainMenu": Play("MainMenuMusic");
+            break;
             default: return;
         }
     }

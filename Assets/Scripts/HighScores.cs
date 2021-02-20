@@ -8,13 +8,17 @@ public class HighScores
 
         string listJson = PlayerPrefs.GetString("highScoreList");
         HighScoreList list = null;
-        
-        if (listJson != null) list = JsonUtility.FromJson<HighScoreList>(PlayerPrefs.GetString("highScoreList"));
 
-        return list != null? list.highScores : null;
+        if (listJson.Length > 0) {
+
+            list = JsonUtility.FromJson<HighScoreList>(listJson);
+
+            return list.highScores;
+
+        } else return new List<HighScoreEntry>();
     }
 
-    public void SaveHighScoreList(List<HighScoreEntry> list) {
+    private void SaveHighScoreList(List<HighScoreEntry> list) {
 
         List<HighScoreEntry> sortedList = SortList(list);
         string jsonList = JsonUtility.ToJson(new HighScoreList(sortedList));
@@ -46,7 +50,7 @@ public class HighScores
 
         List<HighScoreEntry> list = GetHighScoresList();
 
-        return PlayerPrefs.GetInt("totalScore") >= list[list.Count - 1].score;
+        return list == null || list.Count < 1? true : PlayerPrefs.GetInt("totalScore") >= list[list.Count - 1].score;
     }
 
     public void addScoreEntry(int score, string playerName) {
@@ -54,7 +58,7 @@ public class HighScores
         List<HighScoreEntry> list = GetHighScoresList();
         HighScoreEntry newHighScore = new HighScoreEntry(score, playerName);
 
-        if (list == null || list.Count < 5) list.Add(newHighScore);
+        if (list.Count < 5) list.Add(newHighScore);
         else {
 
             for (int i = list.Count - 1; i >= 0; i--) {

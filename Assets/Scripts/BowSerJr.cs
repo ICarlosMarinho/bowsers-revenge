@@ -2,129 +2,80 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BowSerJr : MonoBehaviour
-
+public class BowserJr : MonoBehaviour
 {
-    public int lifePoints = 100;
-    public Transform positionTeleport1, positionTeleport2, positionTeleport3;
-    public int contTeleport = 0;
-    public float tempCont = 0;
-    public bool teleportReady = true;
-    public GameObject yoshiPrefab, toadPrefab;
-    private bool aux;
-    private int currentPosition = 0;
-    public Transform positionEnemy;
-    public Animator JrController;
-  
+    [SerializeField]
+    public List<Vector2> fireballSpawnPoints;
 
+    [SerializeField]
+    [Range(-100f, 100f)]
+    public float gizmoLineHeight = 5f;
+    public float minFireballVelocity = 5f;
+    public float maxFireballVelocity = 10f;
+    public GameObject fireballPrefab;
 
+    public float fireballCooldownTime = 10f;
+    private bool fireballCooldown = false;
+    private Enemy enemy;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-       
+    void Start() {
 
+        enemy = GetComponent<Enemy>();
     }
-
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (lifePoints > 1)
-        {
-            tempCont += Time.deltaTime;
-            ResetTempCont();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-            aux = teleportR();
+        if (player != null) {
 
-            if (aux)
-            {
-                //  enemySpawn();
-            }
-        }else
-        {
-            Invoke("StageClearMenu", 3.0f);
-        }   
-    }
-
-    public void ResetTempCont()
-    {
-        if(tempCont >= 5)
-        {
-            tempCont = 0;
-            teleportReady = true;
+            if (enemy.playerInRange() && !fireballCooldown && !enemy.enemyAnimator.GetBool("isHurt") && !enemy.enemyAnimator.GetBool("isDefeated")) 
+                ShootFireballs();
         }
     }
 
-    public bool teleportR()
+    void OnDrawGizmos() {
+
+        Gizmos.color = Color.red;
+
+        foreach (Vector2 position in fireballSpawnPoints) {
+
+            Gizmos.DrawLine(position, new Vector2(position.x, position.y + gizmoLineHeight));
+        }
+    }
+
+    private void ShootFireballs () {
+
+        enemy.enemyAnimator.SetBool("isShooting", true);
+
+        foreach (Vector2 position in fireballSpawnPoints)
+        {
+            if (Random.Range(0f, 1f) < 0.3f) {
+
+                GameObject objInstance = Instantiate(fireballPrefab, position, fireballPrefab.transform.rotation);
+
+                objInstance.GetComponent<Rigidbody2D>().velocity = Vector2.down * Random.Range(minFireballVelocity, maxFireballVelocity);
+            } 
+        }
+
+        StartCoroutine(CancelShootingAnimation());
+        StartCoroutine(SetFireballCooldown());
+    }
+
+    private IEnumerator SetFireballCooldown() {
+
+        fireballCooldown = true;
+
+        yield return new WaitForSeconds(fireballCooldownTime);
+
+        fireballCooldown = false;
+    }
+
+    IEnumerator CancelShootingAnimation()
     {
-        int random;
-        if(tempCont >= 4 & teleportReady)
-        {
-            random = RandomRangeExcept(currentPosition);
-            teleportReady = false;
-            JrController.SetBool("Teleport", true);
-       
-            if(random == 0)
-            {
-                transform.position = new Vector3 (positionTeleport1.position.x,positionTeleport1.position.y,positionTeleport1.position.z);
-                
-            }
-            else if(random == 1)
-            {
-                transform.position = new Vector3(positionTeleport2.position.x, positionTeleport2.position.y, positionTeleport2.position.z);
-            }
-            else
-            {
-                transform.position = new Vector3(positionTeleport3.position.x, positionTeleport3.position.y, positionTeleport3.position.z);
-            }
-            currentPosition = random;
-            JrController.SetBool("Teleport", false);
-            return true;
-        }
-        return false;
-    }
-    public void enemySpawn()
-    {
-        int random;
-        random = Random.Range(0, 1);
-        JrController.SetBool("Attack", true);
-        if(random == 0)
-        {
-            Destroy(yoshiPrefab);
-            Destroy(toadPrefab);
-            Instantiate(yoshiPrefab, positionEnemy);
-        }
-        else
-        {
-            Destroy(yoshiPrefab);
-            Destroy(toadPrefab);
-            Instantiate(toadPrefab,positionEnemy);
-        }
-        JrController.SetBool("Attack", false);
-    }
-    public int RandomRangeExcept(int except){
-        int number;
-        do {
-        number = Random.Range(0, 3);
-    
-        }while (number == except) ;
-        
-    return number;
-    }
+        yield return new WaitForSeconds(2f);
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag.Equals("Projectile"))
-        {
-            lifePoints -= 5;
-        }else if (other.tag.Equals("Player"))
-        {
-            lifePoints -= 33;
-        }
-
-
+        enemy.enemyAnimator.SetBool("isShooting", false);
     }
-
 }
 
 
