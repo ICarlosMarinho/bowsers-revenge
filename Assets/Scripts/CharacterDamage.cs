@@ -63,7 +63,7 @@ public class CharacterDamage : MonoBehaviour
                 
             if (boss.hp > 0) {
 
-                enemy.speed += 0.5f;
+                enemy.speed += 0.1f;
 
                 animator.SetBool("isHurt", true);
                 StartCoroutine("RestoreBoss");

@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     private PolygonCollider2D baseCollider;
     private Rigidbody2D rbody;
     private FlipCharacter flipCharacter;
+    public GameObject gameOverUI;
 
     void Awake()
     {
@@ -48,6 +49,14 @@ public class Player : MonoBehaviour
 
             if (Input.GetAxisRaw("Vertical") < 0 && Grounded()) animator.SetBool("isCrouching", true);
             else animator.SetBool("isCrouching", false);
+
+        } else {
+
+            if (PlayerPrefs.GetInt("lifeCount") < 1) {
+
+                gameOverUI.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
     }
 

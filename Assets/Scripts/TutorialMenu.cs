@@ -1,25 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TutorialMenu : MonoBehaviour
 {
-    public GameObject TutorialMenuUI;
-    public static bool firstLoad = true;
-
-    void Start()
+    public void StartGame()
     {
-        if (firstLoad)
-        {
-            Time.timeScale = 0f;
-            TutorialMenuUI.SetActive(true);
-            firstLoad = false;
-        }
-    }
-
-    public void CloseTutorial()
-    {
-        TutorialMenuUI.SetActive(false);
-        Time.timeScale = 1f;
+        PlayerPrefs.SetInt("lifeCount", 3);
+        PlayerPrefs.SetInt("totalScore", 0);
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

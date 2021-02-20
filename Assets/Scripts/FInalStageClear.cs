@@ -18,8 +18,6 @@ public class FInalStageClear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print (recordEntryContainer.activeInHierarchy);
-
         if (recordEntryContainer.activeInHierarchy) {
     
             CheckAndDisableSaveBtn();

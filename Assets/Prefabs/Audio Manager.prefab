@@ -59,13 +59,13 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: 12122ddf22dfaa54c8261e640d0419ad, type: 3}
     source: {fileID: 0}
     name: FireballImpact
-    volume: 0.2
-    spatialBlend: 0.3
+    volume: 0.05
+    spatialBlend: 0.77
     loop: 0
   - clip: {fileID: 8300000, guid: 4a3121bb67bd2614cbf68deaf11f7709, type: 3}
     source: {fileID: 0}
     name: FireballShoot
-    volume: 0.2
+    volume: 0.02
     spatialBlend: 0
     loop: 0
   - clip: {fileID: 8300000, guid: b8a20c332b5c9704da32fe9aafef4416, type: 3}
