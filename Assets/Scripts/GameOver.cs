@@ -11,7 +11,7 @@ public class GameOver : MonoBehaviour
 
         SceneManager.LoadScene("FirstStage");
         PlayerPrefs.SetInt("totalScore", 0);
-        PlayerPrefs.SetInt("lifeCount", 3);
+        PlayerPrefs.SetInt("lifeCount", 5);
     }
 
     public void BackToMenu()

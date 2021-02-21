@@ -7,7 +7,7 @@ public class TutorialMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        PlayerPrefs.SetInt("lifeCount", 3);
+        PlayerPrefs.SetInt("lifeCount", 5);
         PlayerPrefs.SetInt("totalScore", 0);
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

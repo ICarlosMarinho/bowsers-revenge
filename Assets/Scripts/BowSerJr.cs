@@ -49,7 +49,7 @@ public class BowserJr : MonoBehaviour
 
         foreach (Vector2 position in fireballSpawnPoints)
         {
-            if (Random.Range(0f, 1f) < 0.3f) {
+            if (Random.Range(0f, 1f) < 0.2f) {
 
                 GameObject objInstance = Instantiate(fireballPrefab, position, fireballPrefab.transform.rotation);
 
